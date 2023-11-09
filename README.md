@@ -1,11 +1,11 @@
 <h1 align="center">Hi 👋, I'm Varun Sharma</h1>
-<h3 align="center">A passionate full stack web developer from India, with</h3>
+<h3 align="center">A passionate full stack web developer from India, with additional knowledge of data science.</h3>
 
-- 🔭 I’m currently working on **ShopPlus**
+- 🔭 I’m currently working on ShopPlus
 
-- 💬 Ask me about **MongoDB, Express, React, NodeJS, Python,**
+- 💬 Ask me about MongoDB, Express, React, NodeJS, Python
 
-- 📫 How to reach me **sv279508@gmail.com**
+- 📫 How to reach me sv279508@gmail.com
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
