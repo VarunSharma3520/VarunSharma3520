@@ -1,8 +1,7 @@
 <br/>
 <p align="center">
-  <a href="https://github.com/ShaanCoding/ReadME-Generator">
-    <img src="[images/logo.png](https://avatars.githubusercontent.com/u/110775856?v=4)" alt="Logo" width="80" height="80" border=50%>
-  </a>
+<img src="https://avatars.githubusercontent.com/u/110775856?v=4" alt="Logo" width="80" height="80" border=50%>
+
 
   <h3 align="center">Varun Sharma</h3>
 
