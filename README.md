@@ -16,7 +16,7 @@
 
 ### Languages & Tools 🧰
 
-[![My Skills](https://skillicons.dev/icons?i=html,css,js,react,nodejs,express,androidstudio,flask,aws,docker,gcp,mongodb,mysql,py,lua,flutter,linux,git,github,neovim,bash,window)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=html,css,js,react,nodejs,express,androidstudio,flask,aws,docker,redis,tauri,nextjs,kotlin,gcp,mongodb,mysql,py,lua,flutter,linux,git,github,neovim,bash,window)](https://skillicons.dev)
 
 <details>
     <summary><samp><b>&#9776; See more details</b></samp></summary>
