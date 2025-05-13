@@ -1,0 +1,64 @@
+name: "💡 Contribution Proposal"
+description: Propose a new feature, improvement, or content addition
+title: "[PROPOSAL] - "
+labels: [enhancement, contribution]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for your interest in contributing to **ErvaruNotes**! Please fill out this form so we can better understand your idea.
+
+  - type: input
+    id: summary
+    attributes:
+      label: Short Summary
+      description: Briefly describe the idea or improvement you’d like to contribute.
+      placeholder: "e.g. Add a dark mode toggle in the header"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: type
+    attributes:
+      label: Type of Contribution
+      options:
+        - New Feature
+        - UI/UX Improvement
+        - Content Addition
+        - Documentation
+        - Refactor or Cleanup
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: motivation
+    attributes:
+      label: Motivation
+      description: Why is this contribution valuable? What problem does it solve?
+    validations:
+      required: true
+
+  - type: textarea
+    id: implementation
+    attributes:
+      label: Proposed Implementation Plan
+      description: If possible, explain how you plan to implement the change or contribution.
+      placeholder: |
+        1. Add a new component in `src/components`
+        2. Update styles with Tailwind
+        3. Add documentation in README
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: agreement
+    attributes:
+      label: Contributor Checklist
+      options:
+        - label: I have read the CONTRIBUTING.md guidelines.
+          required: true
+        - label: I want to be assigned to this issue and will start working on it.
+          required: false
