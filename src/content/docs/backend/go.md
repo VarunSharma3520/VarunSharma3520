@@ -4,7 +4,10 @@ description: A reference page for Go.
 ---
 
 # Go
-This cheatsheet covers the fundamental aspects of Go programming language.[official Go documentation](https://golang.org/doc/).
+This [Cheat Sheet](https://gobyexample.com/) covers the fundamental aspects of Go programming language.
+
+This is [official Go documentation](https://golang.org/doc/).
+
 
 ## Go in a Nutshell
 
@@ -20,6 +23,22 @@ This cheatsheet covers the fundamental aspects of Go programming language.[offic
 * Has closures
 * Pointers, but not pointer arithmetic
 * Built-in concurrency primitives: Goroutines and Channels
+
+# Creating a new Project
+Using Go Modules
+```bash
+go mod init example.com/myproject
+```
+after writing files, run `go mod tidy` to generate the go.mod and go.sum files.
+
+## Build and Run
+```bash
+go build
+```
+
+```bash
+go run .
+```
 
 # Basic Syntax
 
