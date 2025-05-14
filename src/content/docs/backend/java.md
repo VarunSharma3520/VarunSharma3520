@@ -9,6 +9,8 @@ description: A reference page for Java.
 
 Java is an open-source, class-based, high-level, object-oriented programming language. Java is platform independent as the java programs are compiled into byte code that are platform independent.
 
+[W3C refernce](https://www.w3schools.com/java/java_ref_reference.asp)
+
 ### History
 Java programming language was created by **James Gosling in 1995**. The original idea was to design a language for the television industry. Gosling worked along with his team also called the Green Team and the project they worked on was called Greentalk. This project was later named as OAK. The name OAK has its roots to the oak tree that stood outside Gosling’s office. This name had to be dropped later as it was already a trademark by Oak Technologies.
 
@@ -1668,6 +1670,99 @@ Black Widow Dagger Black Canary Stargirl Wasp
 
 <br>
 
+## 6.3 Special Methods
+One-liner examples for important Java methods
+
+### Number Class Methods
+
+```java
+Integer num = 42;
+System.out.println(num.doubleValue()); // xxxValue()
+System.out.println(num.compareTo(50)); // compareTo()
+System.out.println(num.equals(42)); // equals()
+System.out.println(Integer.valueOf(5)); // valueOf()
+System.out.println(Integer.toString(10)); // toString()
+System.out.println(Integer.parseInt("123")); // parseInt()
+System.out.println(Math.abs(-10)); // abs()
+System.out.println(Math.ceil(4.3)); // ceil()
+System.out.println(Math.floor(4.8)); // floor()
+System.out.println(Math.rint(5.5)); // rint()
+System.out.println(Math.round(4.6f)); // round()
+System.out.println(Math.min(3, 7)); // min()
+System.out.println(Math.max(3, 7)); // max()
+System.out.println(Math.exp(2)); // exp()
+System.out.println(Math.log(10)); // log()
+System.out.println(Math.pow(2, 3)); // pow()
+System.out.println(Math.sqrt(16)); // sqrt()
+System.out.println(Math.sin(Math.PI/2)); // sin()
+System.out.println(Math.cos(0)); // cos()
+System.out.println(Math.tan(Math.PI/4)); // tan()
+System.out.println(Math.asin(1)); // asin()
+System.out.println(Math.acos(0)); // acos()
+System.out.println(Math.atan(1)); // atan()
+System.out.println(Math.atan2(1, 1)); // atan2()
+System.out.println(Math.toDegrees(Math.PI)); // toDegrees()
+System.out.println(Math.toRadians(180)); // toRadians()
+System.out.println(Math.random()); // random()
+```
+
+### Character Class Methods
+```java
+System.out.println(Character.isLetter('A')); // isLetter()
+System.out.println(Character.isDigit('5')); // isDigit()
+System.out.println(Character.isWhitespace(' ')); // isWhitespace()
+System.out.println(Character.isUpperCase('A')); // isUpperCase()
+System.out.println(Character.isLowerCase('a')); // isLowerCase()
+System.out.println(Character.toUpperCase('a')); // toUpperCase()
+System.out.println(Character.toLowerCase('A')); // toLowerCase()
+System.out.println(Character.toString('x')); // toString()
+```
+
+### String Class Methods
+```java
+String str = "Hello World";
+System.out.println(str.charAt(0)); // charAt()
+System.out.println(str.length()); // length()
+System.out.println(String.format("%d apples", 5)); // format()
+System.out.println(str.substring(6)); // substring(beginIndex)
+System.out.println(str.substring(0, 5)); // substring(beginIndex, endIndex)
+System.out.println(str.contains("World")); // contains()
+System.out.println(String.join(",", "A", "B", "C")); // join(CharSeq...)
+System.out.println("hello".equals("hello")); // equals()
+System.out.println("".isEmpty()); // isEmpty()
+System.out.println("Hi".concat(" there")); // concat()
+System.out.println("foo".replace('o', 'a')); // replace(char, char)
+System.out.println("foo bar".replace("bar", "baz")); // replace(CharSeq, CharSeq)
+System.out.println("Test".equalsIgnoreCase("test")); // equalsIgnoreCase()
+System.out.println("A-B-C".split("-")); // split()
+System.out.println("one two three".split(" ", 2)); // split with limit
+System.out.println("Java".intern()); // intern()
+System.out.println(str.indexOf('o')); // indexOf(char)
+System.out.println(str.indexOf('o', 5)); // indexOf(char, fromIndex)
+System.out.println(str.indexOf("World")); // indexOf(String)
+System.out.println(str.indexOf("World", 3)); // indexOf(String, fromIndex)
+System.out.println(str.toLowerCase()); // toLowerCase()
+System.out.println(str.toUpperCase()); // toUpperCase()
+System.out.println("  padded  ".trim()); // trim()
+System.out.println(String.valueOf(100)); // valueOf()
+```
+
+### Array Class Methods
+```java
+int[] arr = {3, 1, 4};
+System.out.println(Arrays.toString(arr)); // toString()
+System.out.println(Arrays.toString(Arrays.copyOf(arr, 5))); // copyOf()
+System.out.println(Arrays.toString(Arrays.copyOfRange(arr, 1, 3))); // copyOfRange()
+Arrays.fill(arr, 0); System.out.println(Arrays.toString(arr)); // fill()
+Arrays.fill(arr, 1, 3, 9); System.out.println(Arrays.toString(arr)); // fill(from,to,val)
+System.out.println(Arrays.equals(new int[]{1,2}, new int[]{1,2})); // equals()
+Arrays.sort(arr); System.out.println(Arrays.toString(arr)); // sort()
+Arrays.sort(arr, 0, 2); System.out.println(Arrays.toString(arr)); // sort(from,to)
+System.out.println(Arrays.binarySearch(arr, 4)); // binarySearch()
+System.out.println(Arrays.asList(1, 2, 3)); // asList() with boxed Integer
+System.out.println(Arrays.hashCode(arr)); // hashCode()
+```
+
 # 7. Java Methods
 
 ## 7.1. Java Methods
@@ -3013,7 +3108,21 @@ Character|Meaning
 [0-9]|Find character in range 0-9
 [xyz]|Find anyone character x, y or z
 [^xyz]|Find any character other than x, y or z
- 
+```java
+```java
+import java.util.regex.*;
+
+public class RegexRangeExample {
+    public static void main(String[] args) {
+        Pattern pattern = Pattern.compile("[a-c]");
+        Matcher matcher = pattern.matcher("abcxyz");
+        while (matcher.find()) {
+            System.out.println("Found: " + matcher.group());
+        }
+    }
+}
+```
+
 ### B. Metacharacters
 
 Character|Meaning
@@ -3029,7 +3138,19 @@ $|Searches for a match at the end of the string
 a|b|Searches for any one of the given word patterns, i.e a or b
 .|Search just one instance of any character
 ^|Searches for a match at the start of the string
- 
+
+```java
+public class RegexMetaCharacters {
+    public static void main(String[] args) {
+        String input = "Hello 123!";
+        Pattern pattern = Pattern.compile("\\d"); // digit search
+        Matcher matcher = pattern.matcher(input);
+        while (matcher.find()) {
+            System.out.println("Digit found: " + matcher.group());
+        }
+    }
+}
+```
 
 ### C. Quantifiers
 
@@ -3041,3 +3162,16 @@ a*|Matches zero or more occurrences of string having a
 a{b}|Matches string having a sequence of b a’s
 a{b,c}|Matches string having a sequence of b to c a’s
 a{b,}|Matches string having a sequence of at least b a’s
+
+```java
+public class RegexQuantifiers {
+    public static void main(String[] args) {
+        String input = "aaaaaab";
+        Pattern pattern = Pattern.compile("a{3,6}");
+        Matcher matcher = pattern.matcher(input);
+        while (matcher.find()) {
+            System.out.println("Match found: " + matcher.group());
+        }
+    }
+}
+```
