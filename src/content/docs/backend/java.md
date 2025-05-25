@@ -3127,17 +3127,17 @@ public class RegexRangeExample {
 
 Character|Meaning
 |---|---|
-\b|Search for a word match
-\d|Searches a digit
-\D|Searches a non-digit
-\s|Searches whitespace
-\S|Searches non-whitespace
-\w|Searches for word characters 0-9, a-z, A-Z
-\W|Searches non-word character
-$|Searches for a match at the end of the string
-a|b|Searches for any one of the given word patterns, i.e a or b
-.|Search just one instance of any character
-^|Searches for a match at the start of the string
+|\b|Search for a word match|
+|\d|Searches a digit|
+|\D|Searches a non-digit|
+|\s|Searches whitespace|
+|\S|Searches non-whitespace|
+|\w|Searches for word characters 0-9, a-z, A-Z|
+|\W|Searches non-word character|
+|$|Searches for a match at the end of the string|
+|a|b|Searches for any one of the given word patterns, i.e a or b|
+|.|Search just one instance of any character|
+|^|Searches for a match at the start of the string|
 
 ```java
 public class RegexMetaCharacters {
@@ -3156,12 +3156,12 @@ public class RegexMetaCharacters {
 
 Character|Meaning
 |---|---|
-a?|Matches zero or one occurrences of string having a
-a+|Matches at least one occurrence of string having a
-a*|Matches zero or more occurrences of string having a
-a{b}|Matches string having a sequence of b a’s
-a{b,c}|Matches string having a sequence of b to c a’s
-a{b,}|Matches string having a sequence of at least b a’s
+|a?|Matches zero or one occurrences of string having a|
+|a+|Matches at least one occurrence of string having a|
+|a*|Matches zero or more occurrences of string having a|
+|a{b}|Matches string having a sequence of b a’s|
+|a{b,c}|Matches string having a sequence of b to c a’s|
+|a{b,}|Matches string having a sequence of at least b a’s|
 
 ```java
 public class RegexQuantifiers {
@@ -3175,3 +3175,209 @@ public class RegexQuantifiers {
     }
 }
 ```
+
+## 11.1 Multithreading
+
+**1. What is Multithreading?**
+
+* Multithreading is a Java feature that allows concurrent execution of two or more threads.
+* Threads are lightweight sub-processes that share the same memory space.
+
+
+### 11.2 Creating Threads
+
+* **By extending the Thread class:**
+
+```java
+class MyThread extends Thread {
+    public void run() {
+        System.out.println("Thread is running");
+    }
+}
+
+MyThread t1 = new MyThread();
+t1.start();
+```
+
+* **By implementing the Runnable interface:**
+
+```java
+class MyRunnable implements Runnable {
+    public void run() {
+        System.out.println("Runnable thread running");
+    }
+}
+
+Thread t2 = new Thread(new MyRunnable());
+t2.start();
+```
+
+### 11.3 Thread Lifecycle
+
+1. **New** – Thread object is created.
+2. **Runnable** – `start()` is called.
+3. **Running** – JVM schedules the thread.
+4. **Blocked/Waiting** – Thread is inactive temporarily.
+5. **Terminated** – Thread completes execution or is stopped.
+
+---
+
+### 11.4 Thread Methods
+
+* `start()`: Starts the thread.
+* `run()`: Entry point of the thread.
+* `sleep(ms)`: Puts thread to sleep.
+* `join()`: Waits for a thread to die.
+* `isAlive()`: Checks if thread is alive.
+* `setPriority()`: Sets thread priority.
+
+---
+
+### 11.5 Thread Synchronization
+
+* Ensures that only one thread can access a resource at a time.
+
+```java
+class Counter {
+    private int count = 0;
+
+    public synchronized void increment() {
+        count++;
+    }
+
+    public int getCount() {
+        return count;
+    }
+}
+```
+
+---
+
+### 11.6 Inter-thread Communication
+
+* Achieved using `wait()`, `notify()`, and `notifyAll()` methods.
+
+```java
+synchronized(obj) {
+    while(conditionNotMet) {
+        obj.wait();
+    }
+    // process
+    obj.notify();
+}
+```
+
+---
+
+### 11.7 Thread Priorities
+
+* Threads can have priority values between 1 (MIN\_PRIORITY) and 10 (MAX\_PRIORITY).
+* Default is 5 (NORM\_PRIORITY).
+
+```java
+thread.setPriority(Thread.MAX_PRIORITY);
+```
+
+---
+
+### 11.8 Daemon Threads
+
+* Background threads that support other threads.
+* Ends when all user threads finish.
+
+```java
+Thread t = new MyThread();
+t.setDaemon(true);
+t.start();
+```
+
+---
+
+**Best Practices**
+
+* Avoid thread starvation and deadlocks.
+* Prefer `ExecutorService` over manual thread management.
+* Use synchronized blocks carefully.
+
+---
+
+### 11.9 Using Executor Framework (Java 5+)
+
+```java
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+
+ExecutorService executor = Executors.newFixedThreadPool(2);
+executor.execute(() -> System.out.println("Task 1 running"));
+executor.shutdown();
+```
+
+---
+
+## 12.1 Generics in Java
+
+* Generics enable types (classes and methods) to operate on objects of various types while providing compile-time type safety.
+
+```java
+class Box<T> {
+    private T value;
+
+    public void set(T value) {
+        this.value = value;
+    }
+
+    public T get() {
+        return value;
+    }
+}
+
+Box<Integer> intBox = new Box<>();
+intBox.set(123);
+System.out.println(intBox.get());
+```
+
+* Common generic types: `T` (Type), `E` (Element), `K` (Key), `V` (Value)
+
+---
+
+
+## 13.1 Collections Framework
+
+* Provides classes and interfaces for storing and manipulating groups of data.
+
+**Common Interfaces:**
+
+* `List`: Ordered collection (e.g., `ArrayList`, `LinkedList`)
+* `Set`: No duplicates (e.g., `HashSet`, `TreeSet`)
+* `Map`: Key-value pairs (e.g., `HashMap`, `TreeMap`)
+* `Queue`: FIFO structure (e.g., `PriorityQueue`)
+
+**Examples:**
+
+```java
+import java.util.*;
+
+List<String> names = new ArrayList<>();
+names.add("Alice");
+names.add("Bob");
+System.out.println(names);
+
+Set<Integer> uniqueNumbers = new HashSet<>();
+uniqueNumbers.add(10);
+uniqueNumbers.add(20);
+System.out.println(uniqueNumbers);
+
+Map<String, Integer> scores = new HashMap<>();
+scores.put("Alice", 95);
+scores.put("Bob", 88);
+System.out.println(scores);
+```
+
+**Collections Utility Class:**
+
+```java
+Collections.sort(names);
+Collections.reverse(names);
+Collections.max(uniqueNumbers);
+```
+
