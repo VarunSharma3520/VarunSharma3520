@@ -21,31 +21,12 @@ description: A reference page for setting up docker dev enviroment.
 4. Open terminal and execute to connect host terminal to container
 5. Now You are ready to go
 6. Recommended VS Code Extension
-  - [Remote Container](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers&ssr=false#review-details)
-  - [Docker DX](https://marketplace.visualstudio.com/items?itemName=docker.docker&ssr=false#review-details)
-  - [Docker](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker&ssr=false#review-details)
+    - [Remote Container](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers&ssr=false#review-details)
+    - [Docker DX](https://marketplace.visualstudio.com/items?itemName=docker.docker&ssr=false#review-details)
+    - [Docker](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker&ssr=false#review-details)
 
 ```bash
 docker exec -it cont_name /bin/bash
-```
-
-## For Python
-
-```docker
-version: '3.9'
-
-services:
-  bookReader:                                         # Define the service name
-    image: python:latest                              # Use the latest Python image from Docker Hub
-    container_name: cont_name                         # Name of the container
-    working_dir: /app                                 # Set the working directory inside the container
-    volumes:
-      - .:/app                                        # Mount the current working directory to /app in the container
-    ports:
-      - '8000:8000'                                   # Expose port host:container for the application
-    command: sh -c "pip install uvicorn && /bin/bash" # Install uvicorn and keep the container running
-    stdin_open: true                                  # the container will have an open STDIN stream when it is run
-    tty: true                                         # keep the container running
 ```
 
 ## For NodeJS
@@ -66,6 +47,25 @@ services:
     stdin_open: true                                   # Keep STDIN open
     tty: true                                          # Allocate a pseudo-TTY
 
+```
+
+## For Python
+
+```docker
+version: '3.9'
+
+services:
+  bookReader:                                         # Define the service name
+    image: python:latest                              # Use the latest Python image from Docker Hub
+    container_name: cont_name                         # Name of the container
+    working_dir: /app                                 # Set the working directory inside the container
+    volumes:
+      - .:/app                                        # Mount the current working directory to /app in the container
+    ports:
+      - '8000:8000'                                   # Expose port host:container for the application
+    command: sh -c "pip install uvicorn && /bin/bash" # Install uvicorn and keep the container running
+    stdin_open: true                                  # the container will have an open STDIN stream when it is run
+    tty: true                                         # keep the container running
 ```
 
 ## For MongoDB
@@ -91,7 +91,7 @@ volumes:
   mongo_data:
 ```
 
-### 🔑 Default Credentials (customizable)
+### 🔑 Default Credentials
 
 | Key      | Value   |
 | -------- | ------- |
@@ -123,7 +123,7 @@ volumes:
   postgres_data:
 ```
 
-### 🔑 Default Credentials (edit as needed)
+### 🔑 Default Credentials
 
 | Key      | Value       |
 | -------- | ----------- |

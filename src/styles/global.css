@@ -6,11 +6,15 @@
 @import "tailwindcss";
 
 main ul{
-  @apply list-decimal ml-12;
+  @apply list-disc ml-12;
+}
+
+body{
+  @apply dark:bg-gray-950
 }
 
 main ol{
-  @apply list-disc ml-12;
+  @apply list-decimal ml-12;
 }
 
 .copy button{
@@ -30,4 +34,8 @@ main ol{
 
 main a{
   @apply dark:text-blue-500
+}
+
+main .pagination-links a{
+  @apply dark:text-white;
 }
