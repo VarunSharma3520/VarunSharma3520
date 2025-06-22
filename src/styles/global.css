@@ -1,5 +1,33 @@
+@layer base, starlight, theme, components, utilities;
+
+@import '@astrojs/starlight-tailwind';
+@import 'tailwindcss/theme.css' layer(theme);
+@import 'tailwindcss/utilities.css' layer(utilities);
 @import "tailwindcss";
 
-body {
-  @apply bg-pink-100 text-pink-900;
+main ul{
+  @apply list-decimal ml-12;
+}
+
+main ol{
+  @apply list-disc ml-12;
+}
+
+.copy button{
+  @apply dark:text-white font-bold rounded;
+}
+.astro-v37mnknz{
+  /* @apply rounded-full */
+}
+
+.sidebar-content, .right-sidebar-container, main, header{
+  @apply dark:bg-gray-950 list-none 
+}
+
+.sidebar-content .large , .right-sidebar-container #starlight__on-this-page{
+  @apply dark:text-gray-400
+}
+
+main a{
+  @apply dark:text-blue-500
 }
