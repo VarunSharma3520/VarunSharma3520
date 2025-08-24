@@ -649,23 +649,26 @@ func main() {
 
 # Concurrency
 
-## Goroutines
+## Goroutines & wg
 
 Goroutines are lightweight threads (managed by Go, not OS threads). `go f(a, b)` starts a new goroutine which runs `f` (given `f` is a function).
 
 ```go
 // just a function (which can be later started as a goroutine)
-func doStuff(s string) {
+func task(id int, w *sync.WaitGroup) {
+	defer w.Done()
+	fmt.Println("doing task", id)
 }
 
 func main() {
-    // using a named function in a goroutine
-    go doStuff("foobar")
+	var wg sync.WaitGroup
 
-    // using an anonymous inner function in a goroutine
-    go func (x int) {
-        // function body goes here
-    }(42)
+	for i := 0; i <= 10; i++ {
+		wg.Add(1)
+		go task(i, &wg)
+	}
+
+	wg.Wait()
 }
 ```
 
