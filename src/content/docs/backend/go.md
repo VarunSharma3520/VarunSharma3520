@@ -4,34 +4,38 @@ description: A reference page for Go.
 ---
 
 # Go
+
 This [Cheat Sheet](https://gobyexample.com/) covers the fundamental aspects of Go programming language.
 
 This is [official Go documentation](https://golang.org/doc/).
 
-
 ## Go in a Nutshell
 
-* Imperative language
-* Statically typed
-* Syntax tokens similar to C (but less parentheses and no semicolons) and the structure to Oberon-2
-* Compiles to native code (no JVM)
-* No classes, but structs with methods
-* Interfaces
-* No implementation inheritance. There's [type embedding](http://golang.org/doc/effective%5Fgo.html#embedding), though.
-* Functions are first class citizens
-* Functions can return multiple values
-* Has closures
-* Pointers, but not pointer arithmetic
-* Built-in concurrency primitives: Goroutines and Channels
+- Imperative language
+- Statically typed
+- Syntax tokens similar to C (but less parentheses and no semicolons) and the structure to Oberon-2
+- Compiles to native code (no JVM)
+- No classes, but structs with methods
+- Interfaces
+- No implementation inheritance. There's [type embedding](http://golang.org/doc/effective%5Fgo.html#embedding), though.
+- Functions are first class citizens
+- Functions can return multiple values
+- Has closures
+- Pointers, but not pointer arithmetic
+- Built-in concurrency primitives: Goroutines and Channels
 
 # Creating a new Project
+
 Using Go Modules
+
 ```bash
 go mod init example.com/myproject
 ```
+
 after writing files, run `go mod tidy` to generate the go.mod and go.sum files.
 
 ## Build and Run
+
 ```bash
 go build
 ```
@@ -43,7 +47,9 @@ go run .
 # Basic Syntax
 
 ## Hello World
+
 File `hello.go`:
+
 ```go
 package main
 
@@ -53,50 +59,58 @@ func main() {
     fmt.Println("Hello Go")
 }
 ```
+
 `$ go run hello.go`
 
 ## Operators
+
 ### Arithmetic
-|Operator|Description|
-|--------|-----------|
-|`+`|addition|
-|`-`|subtraction|
-|`*`|multiplication|
-|`/`|quotient|
-|`%`|remainder|
-|`&`|bitwise and|
-|`\|`|bitwise or|
-|`^`|bitwise xor|
-|`&^`|bit clear (and not)|
-|`<<`|left shift|
-|`>>`|right shift|
+
+| Operator | Description         |
+| -------- | ------------------- |
+| `+`      | addition            |
+| `-`      | subtraction         |
+| `*`      | multiplication      |
+| `/`      | quotient            |
+| `%`      | remainder           |
+| `&`      | bitwise and         |
+| `\|`     | bitwise or          |
+| `^`      | bitwise xor         |
+| `&^`     | bit clear (and not) |
+| `<<`     | left shift          |
+| `>>`     | right shift         |
 
 ### Comparison
-|Operator|Description|
-|--------|-----------|
-|`==`|equal|
-|`!=`|not equal|
-|`<`|less than|
-|`<=`|less than or equal|
-|`>`|greater than|
-|`>=`|greater than or equal|
+
+| Operator | Description           |
+| -------- | --------------------- |
+| `==`     | equal                 |
+| `!=`     | not equal             |
+| `<`      | less than             |
+| `<=`     | less than or equal    |
+| `>`      | greater than          |
+| `>=`     | greater than or equal |
 
 ### Logical
-|Operator|Description|
-|--------|-----------|
-|`&&`|logical and|
-|`\|\|`|logical or|
-|`!`|logical not|
+
+| Operator | Description |
+| -------- | ----------- |
+| `&&`     | logical and |
+| `\|\|`   | logical or  |
+| `!`      | logical not |
 
 ### Other
-|Operator|Description|
-|--------|-----------|
-|`&`|address of / create pointer|
-|`*`|dereference pointer|
-|`<-`|send / receive operator (see 'Channels' below)|
+
+| Operator | Description                                    |
+| -------- | ---------------------------------------------- |
+| `&`      | address of / create pointer                    |
+| `*`      | dereference pointer                            |
+| `<-`     | send / receive operator (see 'Channels' below) |
 
 ## Declarations
+
 Type goes after identifier!
+
 ```go
 var foo int // declaration without initialization
 var foo int = 42 // declaration with initialization
@@ -118,6 +132,7 @@ const (
 ```
 
 ## Functions
+
 ```go
 // a simple function
 func functionName() {}
@@ -151,6 +166,7 @@ var x, str = returnMulti2()
 ```
 
 ### Functions As Values And Closures
+
 ```go
 func main() {
     // assign a function to a name
@@ -189,6 +205,7 @@ func outer() (func() int, int) {
 ```
 
 ### Variadic Functions
+
 ```go
 func main() {
 	fmt.Println(adder(1, 2, 3)) 	// 6
@@ -210,6 +227,7 @@ func adder(args ...int) int {
 ```
 
 ## Built-in Types
+
 ```go
 bool
 
@@ -227,9 +245,10 @@ float32 float64
 complex64 complex128
 ```
 
-All Go's predeclared identifiers are defined in the [builtin](https://golang.org/pkg/builtin/) package.  
+All Go's predeclared identifiers are defined in the [builtin](https://golang.org/pkg/builtin/) package.
 
 ## Type Conversions
+
 ```go
 var i int = 42
 var f float64 = float64(i)
@@ -242,15 +261,17 @@ u := uint(f)
 ```
 
 ## Packages
-* Package declaration at top of every source file
-* Executables are in package `main`
-* Convention: package name == last name of import path (import path `math/rand` => package `rand`)
-* Upper case identifier: exported (visible from other packages)
-* Lower case identifier: private (not visible from other packages)
+
+- Package declaration at top of every source file
+- Executables are in package `main`
+- Convention: package name == last name of import path (import path `math/rand` => package `rand`)
+- Upper case identifier: exported (visible from other packages)
+- Lower case identifier: private (not visible from other packages)
 
 ## Control structures
 
 ### If
+
 ```go
 func main() {
 	// Basic one
@@ -278,6 +299,7 @@ func main() {
 ```
 
 ### Loops
+
 ```go
     // There's only `for`, no `while`, no `until`
     for i := 1; i < 10; i++ {
@@ -288,7 +310,7 @@ func main() {
     }
     for { // you can omit the condition ~ while (true)
     }
-    
+
     // use break/continue on current loop
     // use break/continue with label on outer loop
 here:
@@ -319,6 +341,7 @@ there:
 ```
 
 ### Switch
+
 ```go
     // switch statement
     switch operatingSystem {
@@ -359,6 +382,7 @@ there:
 ## Arrays, Slices, Ranges
 
 ### Arrays
+
 ```go
 var a [10]int // declare an int array with length 10. Array length is part of the type!
 a[3] = 42     // set elements
@@ -371,6 +395,7 @@ a := [...]int{1, 2} // elipsis -> Compiler figures out array length
 ```
 
 ### Slices
+
 ```go
 var a []int                              // declare a slice - similar to an array, but length is unspecified
 var a = []int {1, 2, 3, 4}               // declare and initialize a slice (backed by the array given implicitly)
@@ -394,6 +419,7 @@ s := x[:] // a slice referencing the storage of x
 ```
 
 ### Operations on Arrays and Slices
+
 `len(a)` gives you the length of an array/a slice. It's a built-in function, not a attribute/method on the array.
 
 ```go
@@ -445,6 +471,7 @@ for key, value := range m {
 ## Structs
 
 There are no classes, only structs. Structs can have methods.
+
 ```go
 // A struct is a type. It's also a collection of fields
 
@@ -479,8 +506,10 @@ func (v *Vertex) add(n float64) {
 }
 
 ```
+
 **Anonymous structs:**
 Cheaper and safer than using `map[string]interface{}`.
+
 ```go
 point := struct {
 	X, Y int
@@ -488,6 +517,7 @@ point := struct {
 ```
 
 ## Pointers
+
 ```go
 p := Vertex{1, 2}  // p is a Vertex
 q := &p            // q is a pointer to a Vertex
@@ -499,6 +529,7 @@ var s *Vertex = new(Vertex) // new creates a pointer to a new struct instance
 ```
 
 ## Interfaces
+
 ```go
 // interface declaration
 type Awesomizer interface {
@@ -511,6 +542,46 @@ type Foo struct {}
 // instead, types implicitly satisfy an interface if they implement all required methods
 func (foo Foo) Awesomize() string {
     return "Awesome!"
+}
+```
+
+## Enums
+
+Go does not have a built-in enum
+
+```go
+// enumerated types
+type OrderStatus string
+
+const (
+	Received  OrderStatus = "received"
+	Confirmed             = "confirmed"
+	Prepared              = "prepared"
+	Delivered             = "delivered"
+)
+
+func changeOrderStatus(status OrderStatus) {
+	fmt.Println("changing order status to", status)
+}
+
+func main() {
+	changeOrderStatus(Prepared)
+}
+```
+
+## Generics
+
+Generics, introduced in Go 1.18
+
+```go
+func PrintSlice[T any](s []T) {
+    for _, v := range s {
+        fmt.Println(v)
+    }
+}
+
+type MyGenericType[T any] struct {
+    Value T
 }
 ```
 
@@ -555,6 +626,7 @@ type error interface {
 ```
 
 Here's an example:
+
 ```go
 func sqrt(x float64) (float64, error) {
 	if x < 0 {
@@ -578,6 +650,7 @@ func main() {
 # Concurrency
 
 ## Goroutines
+
 Goroutines are lightweight threads (managed by Go, not OS threads). `go f(a, b)` starts a new goroutine which runs `f` (given `f` is a function).
 
 ```go
@@ -597,6 +670,7 @@ func main() {
 ```
 
 ## Channels
+
 ```go
 ch := make(chan int) // create a channel of type int
 ch <- 42             // Send a value to the channel ch.
@@ -633,6 +707,7 @@ func doStuff(channelOut, channelIn chan int) {
 ```
 
 ### Channel Axioms
+
 - A send to a nil channel blocks forever
 
   ```go
@@ -640,6 +715,7 @@ func doStuff(channelOut, channelIn chan int) {
   c <- "Hello, World!"
   // fatal error: all goroutines are asleep - deadlock!
   ```
+
 - A receive from a nil channel blocks forever
 
   ```go
@@ -647,6 +723,7 @@ func doStuff(channelOut, channelIn chan int) {
   fmt.Println(<-c)
   // fatal error: all goroutines are asleep - deadlock!
   ```
+
 - A send to a closed channel panics
 
   ```go
@@ -656,6 +733,7 @@ func doStuff(channelOut, channelIn chan int) {
   c <- "Hello, Panic!"
   // panic: send on closed channel
   ```
+
 - A receive from a closed channel returns the zero value immediately
 
   ```go
@@ -687,8 +765,11 @@ hellomsg := `
 ```
 
 ## Reflection
+
 ### Type Switch
+
 A type switch is like a regular switch statement, but the cases in a type switch specify types (not values) which are compared against the type of the value held by the given interface value.
+
 ```go
 func do(i interface{}) {
 	switch v := i.(type) {
@@ -736,6 +817,7 @@ func main() {
 [Full Playground Example](https://play.golang.org/p/pwWxdrQSrYv)
 
 ## HTTP Server
+
 ```go
 package main
 
