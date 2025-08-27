@@ -1,10 +1,9 @@
 ---
-title: Setup docker dev environment
-description: A reference page for setting up docker dev enviroment.
+title: Email Marketing
+description: A reference page for email marketing.
 ---
 
-# Email Marketing Strategy for Tech Job Search
-## Varun Sharma | Ex-Air Force → MERN Developer
+###### Varun Sharma | Ex-Air Force → MERN Developer
 
 ---
 

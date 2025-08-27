@@ -50,30 +50,30 @@ export default defineConfig({
 			sidebar: [
 				{
 					label: "My DSA",
-          autogenerate: { directory: "DSA", collapsed: true },
-          collapsed: true,
+					autogenerate: { directory: "DSA", collapsed: true },
+					collapsed: true,
 				},
 				{
 					label: "Web Development",
-					autogenerate: { directory: "webd" },
+					autogenerate: { directory: "webd", collapsed: true },
 				},
 				{
 					label: "Backend Development",
-					autogenerate: { directory: "backend" },
+					autogenerate: { directory: "backend", collapsed: true },
 				},
 				{
 					label: "Mobile Development",
-          autogenerate: { directory: "mob", collapsed: true },
-          collapsed: true
+					autogenerate: { directory: "mob", collapsed: true },
+					collapsed: true,
 				},
 				{
 					label: "Artificial Intelligence",
-          autogenerate: { directory: "AI", collapsed: true },
-          collapsed: true
+					autogenerate: { directory: "AI", collapsed: true },
+					collapsed: true,
 				},
 				{
 					label: "Reference",
-					autogenerate: { directory: "reference" },
+					autogenerate: { directory: "reference",collapsed: false },
 				},
 				{
 					label: "How To",

@@ -23,8 +23,7 @@ chmod +x !$   # !$ is the last argument of the last command i.e. foo.sh
 ```
 
 ## Navigating Directories
-[
-![[Pasted image 20250827115616.jpg]]
+
 ### How To Create a Search Bar
 ```bash
 pwd                       # Print current directory path
