@@ -1,6 +1,7 @@
 ---
 title: Bash Reference
 description: A reference page for bash scripting.
+meta: made up
 ---
 # Bash Cheat Sheet
 
@@ -22,7 +23,9 @@ chmod +x !$   # !$ is the last argument of the last command i.e. foo.sh
 ```
 
 ## Navigating Directories
-
+[
+![[Pasted image 20250827115616.jpg]]
+### How To Create a Search Bar
 ```bash
 pwd                       # Print current directory path
 ls                        # List directories
@@ -53,6 +56,7 @@ mkdir -p|--parents {foo,bar}/baz # Create multiple nested directories
 
 mktemp -d|--directory            # Create a temporary directory
 ```
+
 
 ## Moving Directories
 
