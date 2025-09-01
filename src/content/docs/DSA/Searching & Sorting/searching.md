@@ -16,7 +16,7 @@ Later, when you study advanced DSA, you’ll also learn searching in *trees, has
 
 ---
 
-## 1️⃣ Linear Search (Simple Searching)
+## 1️⃣ Linear Search
 
 👉 Idea:
 
