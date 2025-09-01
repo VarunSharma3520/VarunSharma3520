@@ -56,10 +56,12 @@ export default defineConfig({
 				{
 					label: "Web Development",
 					autogenerate: { directory: "webd", collapsed: true },
+					collapsed: true,
 				},
 				{
 					label: "Backend Development",
 					autogenerate: { directory: "backend", collapsed: true },
+					collapsed: true,
 				},
 				{
 					label: "Mobile Development",
@@ -73,7 +75,8 @@ export default defineConfig({
 				},
 				{
 					label: "Reference",
-					autogenerate: { directory: "reference",collapsed: false },
+					autogenerate: { directory: "reference", collapsed: false },
+					collapsed: true,
 				},
 				{
 					label: "How To",

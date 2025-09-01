@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "docs/HowTo/Email Marketing.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
@@ -96,7 +96,7 @@
               "type": "backlink",
               "state": {
                 "file": "docs/HowTo/Email Marketing.md",
-                "collapseAll": false,
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
@@ -143,21 +143,21 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/AI/test.md",
-                "followCursor": false,
-                "showSearch": false,
+                "file": "docs/HowTo/Email Marketing.md",
+                "followCursor": true,
+                "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of test"
+              "title": "Outline of Email Marketing"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -172,8 +172,9 @@
   },
   "active": "1026f8adf35952fc",
   "lastOpenFiles": [
-    "docs/HowTo/test.md",
+    "docs/HowTo/Untitled.md",
     "docs/HowTo/Email Marketing.md",
+    "docs/HowTo/test.md",
     "docs/HowTo/setup-dev-env.md",
     "templates/base-template.md",
     "docs/HowTo 1/setup-dev-env.md",
