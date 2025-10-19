@@ -15,7 +15,7 @@ description: A reference page for setting up docker dev enviroment.
 
 ## Initial Setup
 
-1. Download Docker
+1. Download Docker 
 2. Make a file in current working directory `docker-compose.yml`
 3. Copy service specific example
 4. Open terminal and execute to connect host terminal to container

@@ -2,7 +2,9 @@
   "livePreview": false,
   "trashOption": "local",
   "newFileLocation": "current",
-  "defaultViewMode": "preview",
+  "defaultViewMode": "source",
   "showInlineTitle": true,
-  "vimMode": true
+  "vimMode": true,
+  "alwaysUpdateLinks": true,
+  "showLineNumber": false
 }

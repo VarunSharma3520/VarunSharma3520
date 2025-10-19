@@ -4,21 +4,55 @@
     "type": "split",
     "children": [
       {
-        "id": "839e53909fe44496",
+        "id": "fa3d3cff90961177",
         "type": "tabs",
+        "dimension": 67.0911528150134,
         "children": [
           {
-            "id": "1026f8adf35952fc",
+            "id": "7f5b8d43ea32c3e0",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "docs/lop.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "lop"
+            }
+          },
+          {
+            "id": "932a4c62b18a1161",
+            "type": "leaf",
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "https://www.google.com/search?q=prudent%20",
+                "title": "prudent - Google Search",
+                "mode": "webview"
+              },
+              "icon": "globe-2",
+              "title": "prudent - Google Search"
+            }
+          }
+        ]
+      },
+      {
+        "id": "109ab66cb571b29d",
+        "type": "tabs",
+        "dimension": 32.9088471849866,
+        "children": [
+          {
+            "id": "8ec0dba5f349f641",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/HowTo/Email Marketing.md",
+                "file": "docs/book/Laws of Power.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Email Marketing"
+              "title": "Laws of Power"
             }
           }
         ]
@@ -41,7 +75,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": true
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -78,8 +112,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "95d6a7f518fa460a",
@@ -88,6 +121,7 @@
       {
         "id": "a6e84f995d3b076b",
         "type": "tabs",
+        "dimension": 66.66666666666667,
         "children": [
           {
             "id": "945dfe7908c75c51",
@@ -114,14 +148,37 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/AI/test.md",
+                "file": "docs/lop.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from test"
+              "title": "Outgoing links from lop"
             }
           },
+          {
+            "id": "00010d3b770ac8c4",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "docs/book/Laws of Power.md",
+                "followCursor": true,
+                "showSearch": true,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Laws of Power"
+            }
+          }
+        ],
+        "currentTab": 2
+      },
+      {
+        "id": "e25b01b7ea953100",
+        "type": "tabs",
+        "dimension": 33.333333333333336,
+        "children": [
           {
             "id": "8f003343c41d0e4c",
             "type": "leaf",
@@ -136,28 +193,13 @@
               "icon": "lucide-tags",
               "title": "Tags"
             }
-          },
-          {
-            "id": "00010d3b770ac8c4",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "docs/HowTo/Email Marketing.md",
-                "followCursor": true,
-                "showSearch": true,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "Outline of Email Marketing"
-            }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -167,24 +209,44 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "bases:Create new base": false,
+      "iconic:Open rulebook": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "obsidian-kanban:Create new board": false
     }
   },
-  "active": "1026f8adf35952fc",
+  "active": "8ec0dba5f349f641",
   "lastOpenFiles": [
-    "docs/HowTo/Untitled.md",
+    "docs/lop.pdf",
+    "docs/book/Laws of Power.md",
+    "Untitled Kanban.md",
+    "docs/HowTo/Important Links.md",
     "docs/HowTo/Email Marketing.md",
-    "docs/HowTo/test.md",
     "docs/HowTo/setup-dev-env.md",
+    "docs/book",
+    "Excalidraw/Drawing 2025-10-18 21.56.53.excalidraw.md",
+    "Excalidraw/Drawing 2025-10-18 21.56.40.excalidraw.md",
+    "Excalidraw/Drawing 2025-10-18 21.18.47.excalidraw.md",
+    "assets/Pasted image 20251018214603.png",
+    "assets/Pasted image 20250827115616.jpg",
+    "docs/lop.md",
+    "docs/lop.epub",
+    "Excalidraw/Drawing 2025-10-18 21.18.37.excalidraw.md",
+    "Excalidraw",
+    "docs/HowTo/Untitled.base",
     "templates/base-template.md",
+    "2025-10-18.md",
+    "test.canvas",
+    "docs/backend/go.md",
+    "docs/backend/java.md",
+    "docs/HowTo/Untitled.md",
+    "assets/Pasted image 20250907223329.png",
     "docs/HowTo 1/setup-dev-env.md",
     "docs/HowTo 1",
     "docs/backend/bash.md",
-    "assets/Pasted image 20250827115616.jpg",
     "Untitled.base",
     "docs/AI/test.md",
     "docs/AI/example.md",
-    "assets/if-else_statement.png",
-    "Untitled.canvas"
+    "assets/if-else_statement.png"
   ]
 }

@@ -21,7 +21,7 @@ main ol{
   @apply dark:text-white font-bold rounded;
 }
 .astro-v37mnknz{
-  /* @apply rounded-full */
+  @apply rounded-full
 }
 
 .sidebar-content, .right-sidebar-container, main, header{

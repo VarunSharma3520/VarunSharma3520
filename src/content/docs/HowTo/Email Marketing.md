@@ -327,7 +327,7 @@ MERN Stack Developer | Ex-Indian Air Force
 ### Immediate Action Items
 - [ ] Set up professional email address
 - [ ] Install email tracking tool
-- [ ] Create contact spreadsheet
+<del>- [ ] Create contact spreadsheet</del>
 - [ ] Write 3 email templates
 - [ ] Research 20 target companies
 - [ ] Send first 10 emails today
