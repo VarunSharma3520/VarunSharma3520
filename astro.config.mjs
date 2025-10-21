@@ -74,13 +74,12 @@ export default defineConfig({
 					collapsed: true,
 				},
 				{
-					label: "Reference",
-					autogenerate: { directory: "reference", collapsed: false },
-					collapsed: true,
+					label: "Psycho",
+					autogenerate: { directory: "psyco", collapsed: true },
 				},
 				{
-					label: "How To",
-					autogenerate: { directory: "HowTo" },
+					label: "Quick Note",
+					autogenerate: { directory: "QuickNote" },
 				},
 			],
 		}),

@@ -4,50 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "fa3d3cff90961177",
+        "id": "84ae70fb1f3b4c43",
         "type": "tabs",
-        "dimension": 67.0911528150134,
         "children": [
           {
-            "id": "7f5b8d43ea32c3e0",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "docs/lop.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "lop"
-            }
-          },
-          {
-            "id": "932a4c62b18a1161",
-            "type": "leaf",
-            "state": {
-              "type": "webviewer",
-              "state": {
-                "url": "https://www.google.com/search?q=prudent%20",
-                "title": "prudent - Google Search",
-                "mode": "webview"
-              },
-              "icon": "globe-2",
-              "title": "prudent - Google Search"
-            }
-          }
-        ]
-      },
-      {
-        "id": "109ab66cb571b29d",
-        "type": "tabs",
-        "dimension": 32.9088471849866,
-        "children": [
-          {
-            "id": "8ec0dba5f349f641",
+            "id": "1313df9c9da5da28",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/book/Laws of Power.md",
+                "file": "docs/psyco/Laws of Power.md",
                 "mode": "source",
                 "source": true
               },
@@ -87,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#t",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -112,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 253.5
   },
   "right": {
     "id": "95d6a7f518fa460a",
@@ -162,7 +128,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/book/Laws of Power.md",
+                "file": "docs/psyco/Laws of Power.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
@@ -212,20 +178,40 @@
       "bases:Create new base": false,
       "iconic:Open rulebook": false,
       "obsidian-excalidraw-plugin:New drawing": false,
-      "obsidian-kanban:Create new board": false
+      "obsidian-kanban:Create new board": false,
+      "pdf-plus:PDF++: Toggle auto-copy": false,
+      "pdf-plus:PDF++: Toggle auto-focus": false,
+      "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "8ec0dba5f349f641",
+  "active": "1313df9c9da5da28",
   "lastOpenFiles": [
-    "docs/lop.pdf",
-    "docs/book/Laws of Power.md",
+    "docs/QuickNote/setup-dev-env.md",
+    "docs/QuickNote/Important Links.md",
+    "docs/QuickNote/Email Marketing.md",
+    "docs/QuickNote/HowTo/setup-dev-env.md",
+    "docs/QuickNote/HowTo/Important Links.md",
+    "docs/QuickNote/HowTo/Email Marketing.md",
+    "docs/QuickNote/HowTo",
+    "docs/backend/java.md",
+    "docs/psyco/Laws of Power.md",
+    "data/lop.md",
+    "data/lop.pdf",
+    "data/New Text Document.txt",
+    "data/lop.epub",
     "Untitled Kanban.md",
+    "Excalidraw/Drawing 2025-10-18 21.56.40.excalidraw.md",
     "docs/HowTo/Important Links.md",
+    "data/test.md",
+    "docs/DSA/Searching & Sorting/searching.md",
+    "docs/AI/example.md",
+    "click.md",
+    "docs/QuickNote",
+    "templates/base-template.md",
     "docs/HowTo/Email Marketing.md",
     "docs/HowTo/setup-dev-env.md",
-    "docs/book",
+    "docs/psyco",
     "Excalidraw/Drawing 2025-10-18 21.56.53.excalidraw.md",
-    "Excalidraw/Drawing 2025-10-18 21.56.40.excalidraw.md",
     "Excalidraw/Drawing 2025-10-18 21.18.47.excalidraw.md",
     "assets/Pasted image 20251018214603.png",
     "assets/Pasted image 20250827115616.jpg",
@@ -234,19 +220,12 @@
     "Excalidraw/Drawing 2025-10-18 21.18.37.excalidraw.md",
     "Excalidraw",
     "docs/HowTo/Untitled.base",
-    "templates/base-template.md",
     "2025-10-18.md",
     "test.canvas",
     "docs/backend/go.md",
-    "docs/backend/java.md",
     "docs/HowTo/Untitled.md",
     "assets/Pasted image 20250907223329.png",
-    "docs/HowTo 1/setup-dev-env.md",
     "docs/HowTo 1",
-    "docs/backend/bash.md",
-    "Untitled.base",
-    "docs/AI/test.md",
-    "docs/AI/example.md",
     "assets/if-else_statement.png"
   ]
 }
