@@ -3,7 +3,6 @@ title: Laws of Power
 description: A Short note of Laws of Power.
 ---
 
-# Laws of Power
 Author: Robert Greene
 
 [Book Link](/lop.pdf)
@@ -348,14 +347,7 @@ Majorly this rule says CO (Senior) is always correct
 
 ## LAW - 10 Infection: Avoid The Unhappy and Unlucky
 
-m
-
-
-
-
-
 ### Vocabulary
-
 
 |Word     |meaning     |
 | --- | --- |

@@ -1,7 +1,7 @@
 ---
 title: Basic Python
 description: Quick overview in python.
------------------------------------------------------------------
+---
 
 Here is the basic reference of python
 

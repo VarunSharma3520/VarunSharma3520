@@ -1,10 +1,11 @@
 {
   "livePreview": false,
   "trashOption": "local",
-  "newFileLocation": "current",
+  "newFileLocation": "folder",
   "defaultViewMode": "source",
   "showInlineTitle": true,
   "vimMode": true,
   "alwaysUpdateLinks": true,
-  "showLineNumber": false
+  "showLineNumber": false,
+  "newFileFolderPath": "docs/QuickNote"
 }

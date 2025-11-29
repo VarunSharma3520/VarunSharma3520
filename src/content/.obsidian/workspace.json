@@ -4,24 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "84ae70fb1f3b4c43",
+        "id": "bd3f5e9b0ad86099",
         "type": "tabs",
         "children": [
           {
-            "id": "1313df9c9da5da28",
+            "id": "bd28ffaac584be61",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/psyco/Laws of Power.md",
+                "file": "docs/DSA/Basics/25 Important Question in DSA.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Laws of Power"
+              "title": "25 Important Question in DSA"
+            }
+          },
+          {
+            "id": "2655f9458e1cc800",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/QuickNote/DeepSeek-OCR.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "DeepSeek-OCR"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -53,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#t",
+                "query": "tag:#pointosay",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -73,78 +88,7 @@
               "icon": "lucide-bookmark",
               "title": "Bookmarks"
             }
-          }
-        ]
-      }
-    ],
-    "direction": "horizontal",
-    "width": 253.5
-  },
-  "right": {
-    "id": "95d6a7f518fa460a",
-    "type": "split",
-    "children": [
-      {
-        "id": "a6e84f995d3b076b",
-        "type": "tabs",
-        "dimension": 66.66666666666667,
-        "children": [
-          {
-            "id": "945dfe7908c75c51",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "docs/HowTo/Email Marketing.md",
-                "collapseAll": true,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-coming-in",
-              "title": "Backlinks for Email Marketing"
-            }
           },
-          {
-            "id": "c9d0ead6bfbb0f5b",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "docs/lop.pdf",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-going-out",
-              "title": "Outgoing links from lop"
-            }
-          },
-          {
-            "id": "00010d3b770ac8c4",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "docs/psyco/Laws of Power.md",
-                "followCursor": true,
-                "showSearch": true,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "Outline of Laws of Power"
-            }
-          }
-        ],
-        "currentTab": 2
-      },
-      {
-        "id": "e25b01b7ea953100",
-        "type": "tabs",
-        "dimension": 33.333333333333336,
-        "children": [
           {
             "id": "8f003343c41d0e4c",
             "type": "leaf",
@@ -164,6 +108,69 @@
       }
     ],
     "direction": "horizontal",
+    "width": 253.5
+  },
+  "right": {
+    "id": "95d6a7f518fa460a",
+    "type": "split",
+    "children": [
+      {
+        "id": "a6e84f995d3b076b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "945dfe7908c75c51",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "docs/psyco/AI Research.md",
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for AI Research"
+            }
+          },
+          {
+            "id": "c9d0ead6bfbb0f5b",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "docs/psyco/AI Research.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from AI Research"
+            }
+          },
+          {
+            "id": "00010d3b770ac8c4",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "docs/QuickNote/AI Research.md",
+                "followCursor": true,
+                "showSearch": true,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of AI Research"
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
     "width": 300,
     "collapsed": true
   },
@@ -178,25 +185,37 @@
       "bases:Create new base": false,
       "iconic:Open rulebook": false,
       "obsidian-excalidraw-plugin:New drawing": false,
-      "obsidian-kanban:Create new board": false,
-      "pdf-plus:PDF++: Toggle auto-copy": false,
-      "pdf-plus:PDF++: Toggle auto-focus": false,
-      "pdf-plus:PDF++: Toggle auto-paste": false
+      "obsidian-kanban:Create new board": false
     }
   },
-  "active": "1313df9c9da5da28",
+  "active": "2655f9458e1cc800",
   "lastOpenFiles": [
+    "docs/AI/example.md",
+    "docs/QuickNote/DeepSeek-OCR.md",
+    "docs/DSA/Basics/25 Important Question in DSA.md",
+    "docs/QuickNote/AI Research.md",
+    "docs/QuickNote/Email Marketing.md",
+    "docs/DSA/Basics/Pattern in DSA.md",
+    "docs/DSA/Basics/basic.md",
+    "docs/DSA/150 Neetcode Question.md",
+    "docs/QuickNote/varun.md",
+    "docs/DSA/Untitled.md",
+    "Untitled",
+    "docs/psyco/Never Split the Difference.md",
+    "docs/psyco/Laws of Power.md",
+    "data/Never-Split-the-Difference.pdf",
+    "data/Unconfirmed 210990.crdownload",
+    "data/Unconfirmed 135195.crdownload",
+    "templates/base-template.md",
+    "data/lop.pdf",
     "docs/QuickNote/setup-dev-env.md",
     "docs/QuickNote/Important Links.md",
-    "docs/QuickNote/Email Marketing.md",
     "docs/QuickNote/HowTo/setup-dev-env.md",
     "docs/QuickNote/HowTo/Important Links.md",
     "docs/QuickNote/HowTo/Email Marketing.md",
     "docs/QuickNote/HowTo",
     "docs/backend/java.md",
-    "docs/psyco/Laws of Power.md",
     "data/lop.md",
-    "data/lop.pdf",
     "data/New Text Document.txt",
     "data/lop.epub",
     "Untitled Kanban.md",
@@ -204,28 +223,12 @@
     "docs/HowTo/Important Links.md",
     "data/test.md",
     "docs/DSA/Searching & Sorting/searching.md",
-    "docs/AI/example.md",
-    "click.md",
     "docs/QuickNote",
-    "templates/base-template.md",
-    "docs/HowTo/Email Marketing.md",
-    "docs/HowTo/setup-dev-env.md",
     "docs/psyco",
-    "Excalidraw/Drawing 2025-10-18 21.56.53.excalidraw.md",
-    "Excalidraw/Drawing 2025-10-18 21.18.47.excalidraw.md",
     "assets/Pasted image 20251018214603.png",
     "assets/Pasted image 20250827115616.jpg",
-    "docs/lop.md",
-    "docs/lop.epub",
-    "Excalidraw/Drawing 2025-10-18 21.18.37.excalidraw.md",
-    "Excalidraw",
-    "docs/HowTo/Untitled.base",
-    "2025-10-18.md",
     "test.canvas",
-    "docs/backend/go.md",
-    "docs/HowTo/Untitled.md",
     "assets/Pasted image 20250907223329.png",
-    "docs/HowTo 1",
     "assets/if-else_statement.png"
   ]
 }
