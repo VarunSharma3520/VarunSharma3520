@@ -8,35 +8,20 @@
         "type": "tabs",
         "children": [
           {
-            "id": "bd28ffaac584be61",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/DSA/Basics/25 Important Question in DSA.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "25 Important Question in DSA"
-            }
-          },
-          {
             "id": "2655f9458e1cc800",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/QuickNote/DeepSeek-OCR.md",
+                "file": "docs/AI/example.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "DeepSeek-OCR"
+              "title": "example"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -188,12 +173,13 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "2655f9458e1cc800",
+  "active": "eb95f0aca090790a",
   "lastOpenFiles": [
-    "docs/AI/example.md",
-    "docs/QuickNote/DeepSeek-OCR.md",
-    "docs/DSA/Basics/25 Important Question in DSA.md",
+    "docs/AI/example.md~",
     "docs/QuickNote/AI Research.md",
+    "docs/QuickNote/DeepSeek-OCR.md",
+    "docs/AI/example.md",
+    "docs/DSA/Basics/25 Important Question in DSA.md",
     "docs/QuickNote/Email Marketing.md",
     "docs/DSA/Basics/Pattern in DSA.md",
     "docs/DSA/Basics/basic.md",

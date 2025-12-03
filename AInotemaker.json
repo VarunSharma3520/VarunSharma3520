@@ -1,0 +1,200 @@
+{
+  "name": "My workflow",
+  "nodes": [
+    {
+      "parameters": {
+        "formTitle": "Fill this for form to make notes",
+        "formFields": {
+          "values": [
+            {
+              "fieldLabel": "Content",
+              "fieldType": "textarea",
+              "placeholder": "Add text content here to AI based notes....",
+              "requiredField": true
+            },
+            {
+              "fieldLabel": "ChunkSize",
+              "fieldType": "number",
+              "placeholder": "1000-10000+",
+              "requiredField": true
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.formTrigger",
+      "typeVersion": 2.3,
+      "position": [
+        -976,
+        16
+      ],
+      "id": "140c78d0-4f64-49b5-8141-c4f3412377d3",
+      "name": "On form submission",
+      "webhookId": "b48b4bf4-b2e9-4bb8-aaa8-69551c239707",
+      "alwaysOutputData": true,
+      "executeOnce": true
+    },
+    {
+      "parameters": {
+        "jsCode": "const raw = $json.Content;\n// const raw = $json.chatInput;\n\n// remove \\n and \\r – add more inside [] if needed\nconst str = raw.replace(/[\\n\\r]/g, \"\");\n\nconst size = $json.ChunkSize || 10000;\nconst parts = str.match(new RegExp(`.{1,${size}}`, \"g\")) || [];\n\nreturn parts.map(p => ({\n  json: { chunk: p }\n}));\n"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        -720,
+        -32
+      ],
+      "id": "4c7aa0e7-1cfb-42e5-805e-8dfcb7a5a878",
+      "name": "Code in JavaScript",
+      "alwaysOutputData": true,
+      "executeOnce": false
+    },
+    {
+      "parameters": {
+        "promptType": "define",
+        "text": "=User: {{ $json.chunk }}",
+        "messages": {
+          "messageValues": [
+            {
+              "message": "You are a markdown note making agent. Understand this and make a concise note and just explain in bullet points. If data is garbage then give empty string"
+            }
+          ]
+        },
+        "batching": {
+          "delayBetweenBatches": 10
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.chainLlm",
+      "typeVersion": 1.7,
+      "position": [
+        -448,
+        -32
+      ],
+      "id": "4699c6f5-d89d-43bb-86ef-82855dfe36d4",
+      "name": "Basic LLM Chain",
+      "alwaysOutputData": true,
+      "retryOnFail": true,
+      "waitBetweenTries": 3000
+    },
+    {
+      "parameters": {
+        "model": "gpt-oss:120b-cloud",
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.lmChatOllama",
+      "typeVersion": 1,
+      "position": [
+        -448,
+        208
+      ],
+      "id": "f6d83c45-f5e4-4a81-87f8-c7b0465a9e50",
+      "name": "Ollama Chat Model"
+    },
+    {
+      "parameters": {
+        "mode": "runOnceForEachItem",
+        "jsCode": "// const parts = $json.text || [];\n\n// // Join the text normally\n// let note = parts.join(\"\\n\\n\");\n\n// // Replace *all* escaped newline sequences with actual newlines,\n// // preserving the exact number of occurrences\n// note = note.replace(/(\\\\n)+/g, (match) => {\n//   const count = match.length / 2; // '\\\\n' is 2 characters\n//   return '\\n'.repeat(count);\n// });\n\n// return { note };\n\n\nconst parts = $json.text || [];\n\n// Join text sections\nlet note = parts.join(\"\\n\\n\");\n\n// Replace escaped \"\\n\" with actual newlines\nnote = note.replace(/\\\\n/g, '\\n').trim();\n\n// Convert to base64 for binary file\nconst base64 = Buffer.from(note, \"utf8\").toString(\"base64\");\n\n// Return JSON + Binary together\nreturn {\n  json: {\n    note      // (optional) you can see the markdown as JSON\n  },\n  binary: {\n    data: {\n      data: base64,\n      fileName: \"note.md\",\n      mimeType: \"text/markdown\"\n    }\n  }\n};\n"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        128,
+        -128
+      ],
+      "id": "3c3705e4-ff55-403c-8e43-6e17af3c24da",
+      "name": "MarkDown Formatter",
+      "executeOnce": true
+    },
+    {
+      "parameters": {
+        "fieldsToAggregate": {
+          "fieldToAggregate": [
+            {
+              "fieldToAggregate": "text"
+            }
+          ]
+        },
+        "options": {
+          "mergeLists": true
+        }
+      },
+      "type": "n8n-nodes-base.aggregate",
+      "typeVersion": 1,
+      "position": [
+        -96,
+        -128
+      ],
+      "id": "3a5fe28d-dc94-4431-94e6-e3fd2baaa106",
+      "name": "Aggregate AI response"
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "On form submission": {
+      "main": [
+        [
+          {
+            "node": "Code in JavaScript",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Code in JavaScript": {
+      "main": [
+        [
+          {
+            "node": "Basic LLM Chain",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Basic LLM Chain": {
+      "main": [
+        [
+          {
+            "node": "Aggregate AI response",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Ollama Chat Model": {
+      "ai_languageModel": [
+        [
+          {
+            "node": "Basic LLM Chain",
+            "type": "ai_languageModel",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Aggregate AI response": {
+      "main": [
+        [
+          {
+            "node": "MarkDown Formatter",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "versionId": "ace22b56-3a68-406b-a2d0-4390aaa65915",
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": "9f7183dc8afb64d09f27f18283dc1a4f1e039e2c8edc5ec2574a7c04344396fb"
+  },
+  "id": "TOhPORbm7Z1VX3Nu",
+  "tags": []
+}

@@ -1,7 +1,7 @@
 // @ts-check
 import { defineConfig } from "astro/config";
 import starlight from "@astrojs/starlight";
-import starlightDocSearch from "@astrojs/starlight-docsearch";
+// import starlightDocSearch from "@astrojs/starlight-docsearch";
 
 import tailwindcss from "@tailwindcss/vite";
 
@@ -77,6 +77,16 @@ export default defineConfig({
 					label: "Psycho",
 					autogenerate: { directory: "psyco", collapsed: true },
 				},
+ 				{
+					label: "Microcontroller",
+					autogenerate: { directory: "mcu" },
+				},
+
+ 				{
+					label: "Electronics",
+					autogenerate: { directory: "electronics" },
+				},
+
 				{
 					label: "Quick Note",
 					autogenerate: { directory: "QuickNote" },
