@@ -25,4 +25,10 @@ jobs:
       run: npm run build
     
     # - name: Run tests
-      # run: npm test
+    #   run: npm test --coverage
+
+    # - name: Lint code
+    #   run: npm run lint
+
+    # - name: Security audit
+    #   run: npm audit --audit-level=moderate
