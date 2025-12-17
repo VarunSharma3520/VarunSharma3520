@@ -40,7 +40,7 @@ Some applications are designed for corporate organizations with the intent to co
 
 ### Features
 
-![features of java image](../../assets/features-of-java.png)
+![features of java image](../../../../assets/features-of-java.png)
 
 - Object Oriented: In object oriented programming everything is an object rather that function and logic.
 - Simple: Java is simple to understand, easy to learn and implement.
@@ -92,7 +92,7 @@ Java programs can be written in normal text editor like a notepad or more compli
 
 ## 1.3. JVM, JRE, JDK
  
-![jvm,jre,jdk.jpg](../../assets/jvm_jdk_jre.png)
+![jvm,jre,jdk.jpg](../../../../assets/jvm_jdk_jre.png)
 
 ### **A. Java Virtual Machine (JVM)**
 
@@ -232,7 +232,7 @@ There are two forms of datatypes in Java:
 - Primitive data type
 - Non-Primitive data type
 
-![java_datatype.png](../../assets/java_datatype.png)
+![java_datatype.png](../../../../assets/java_datatype.png)
  
 - **bool**: Boolean data type consists of true and false values.
 - **char**: char datatype is used to store characters.
@@ -689,7 +689,7 @@ Decision-making involves evaluating a condition to a Boolean value and making a 
 
 ### 1. if statement
 
-![if_statement](../../assets/if-flowchart.png)
+![if_statement](../../../../assets/if-flowchart.png)
 
 In a simple if statement, a block of code inside the if statement is only executed if the condition evaluates to true.
 
@@ -745,7 +745,7 @@ if (condition) {
 }
 ```
 
-![if_else.png](../../assets/if-else_statement.png)
+![if_else.png](../../../../assets/if-else_statement.png)
 
 Example
 ```java
@@ -913,7 +913,7 @@ There are three types of loops in java:
 
 ### for loop
 
-![for loop flowchart](../../assets/java-for-loop.png)
+![for loop flowchart](../../../../assets/java-for-loop.png)
 
 Whenever a loop needs to be run a specific number of times, we use a for loop.
 
@@ -1017,7 +1017,7 @@ The loop will keep on running until you halt the program.
 
 ## 4.2. while Loop
 
-![java-while-loop](../../assets/java-while-loop.png)
+![java-while-loop](../../../../assets/java-while-loop.png)
 
 Whenever we are not sure about the number of times the loop needs to be run, we use a while loop. A while loop keeps on running till the condition is true, as soon as the condition is false, control is returned to the main body of the program.
 
@@ -2280,7 +2280,7 @@ i. Single Inheritance
 
 When a single class inherits the attributes and methods of another class, it is known as single inheritance.
 
-![Single-inheritance](../../assets/single-inheritance.png)
+![Single-inheritance](../../../../assets/single-inheritance.png)
 
 ### Example
 ```java
@@ -2318,7 +2318,7 @@ ii. Multi-level Inheritance
 
 When a class 3 inherits attributes and methods from class 2 which in turn inherits its attributes and methods from class 1, it is called a multi-level inheritance.
 
-![Multi-level Inheritance](../../assets/multi-level_inheritance.png)
+![Multi-level Inheritance](../../../../assets/multi-level_inheritance.png)
 
 It forms a child-parent-grandparent (or a parent-child-grandchild) relationship. Meaning that child inherits from the parent while the parent inherits from the grandparent.
 
@@ -2368,7 +2368,7 @@ iii. Hierarchical Inheritance
 
 Hierarchical inheritance is when two or more classes inherit from a single class. This can be easily visualized as a parent with more than one child. Here each child can inherit the properties of a parent.
 
-![Hierarchical inheritance](../../assets/hierarchical-inheritance.png)
+![Hierarchical inheritance](../../../../assets/hierarchical-inheritance.png)
 
 ### Example
 ```java

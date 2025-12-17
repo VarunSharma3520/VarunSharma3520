@@ -49,47 +49,42 @@ export default defineConfig({
 			],
 			sidebar: [
 				{
-					label: "My DSA",
-					autogenerate: { directory: "DSA", collapsed: true },
+					label: "01_Projects",
+					autogenerate: {
+						directory: "01_Projects",
+						collapsed: true,
+					},
 					collapsed: true,
 				},
 				{
-					label: "Web Development",
-					autogenerate: { directory: "webd", collapsed: true },
+					label: "02_Areas",
+					autogenerate: {
+						directory: "02_Areas",
+						collapsed: true
+					},
 					collapsed: true,
 				},
 				{
-					label: "Backend Development",
-					autogenerate: { directory: "backend", collapsed: true },
+					label: "03_Resources",
+					autogenerate: {
+						directory: "03_Resources",
+						collapsed: true
+					},
 					collapsed: true,
-				},
-				{
-					label: "Mobile Development",
-					autogenerate: { directory: "mob", collapsed: true },
+				}, {
+					label: "04_Archive",
+					autogenerate: {
+						directory: "04_Archive",
+						collapsed: true
+					},
 					collapsed: true,
-				},
-				{
-					label: "Artificial Intelligence",
-					autogenerate: { directory: "AI", collapsed: true },
-					collapsed: true,
-				},
-				{
-					label: "Psycho",
-					autogenerate: { directory: "psyco", collapsed: true },
-				},
- 				{
-					label: "Microcontroller",
-					autogenerate: { directory: "mcu" },
-				},
-
- 				{
-					label: "Electronics",
-					autogenerate: { directory: "electronics" },
-				},
-
-				{
-					label: "Quick Note",
-					autogenerate: { directory: "QuickNote" },
+				}, {
+					label: "05_Quick_Notes",
+					autogenerate: {
+						directory: "05_Quick_Notes",
+						collapsed: true
+					},
+					collapsed: false,
 				},
 			],
 		}),

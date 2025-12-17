@@ -39,3 +39,7 @@ main a{
 main .pagination-links a{
   @apply dark:text-white;
 }
+
+main code{
+  @apply dark:bg-gray-950
+}

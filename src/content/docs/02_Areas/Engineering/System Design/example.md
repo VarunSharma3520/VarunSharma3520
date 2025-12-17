@@ -1,5 +1,5 @@
 ---
-title: Web Reference
+title: Mobile Reference
 description: A reference page in my new Starlight docs site.
 ---
 

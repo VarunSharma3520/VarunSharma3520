@@ -1,10 +1,10 @@
 ---
-title: AI Research
+title: Learnings
 description: A detailed document about making of detailed IETM application using AR/VR technology
 ---
 # **Weekly Report – Er. Varun Sharma**
 
-**Internship Start Date:** 10th October 2025  
+**Internship Start Date:** 10<sup>th</sup> Oct 2025  
 **Project Focus:** Enhancing an existing IETM (Interactive Electronic Technical Manual) application using AI and AR/VR technologies.
 
 ---
@@ -814,4 +814,4 @@ Point to Note: please read `Supplementary Material`
 
 **Research Paper:** [WavRAG](https://arxiv.org/pdf/2502.14727)
 
-**Fine Tune Embeddung Model** [YouTube](https://www.youtube.com/watch?v=v28Pu7hsJ0s)
+**Fine Tune Embedding Model** [YouTube](https://www.youtube.com/watch?v=v28Pu7hsJ0s)
