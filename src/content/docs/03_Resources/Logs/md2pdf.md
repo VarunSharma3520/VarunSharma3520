@@ -33,7 +33,7 @@ pdf_path = Path("./output.pdf")
 markdown_text = md_path.read_text(encoding="utf-8")
 
 # Create PDF
-pdf = MarkdownPdf(toc_level=2, optimize=True)
+pdf = MarkdownPdf(toc_level=2, garbage=4, deflate=True, clean=True)
 
 # Add markdown content
 pdf.add_section(Section(markdown_text))

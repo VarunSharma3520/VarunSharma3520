@@ -7,6 +7,7 @@ import tailwindcss from "@tailwindcss/vite";
 
 // https://astro.build/config
 export default defineConfig({
+	// Enable sitemap
 	// site: "https://www.my-site.dev",
 	base: "/",
 
@@ -55,6 +56,7 @@ export default defineConfig({
 						collapsed: true,
 					},
 					collapsed: true,
+					// slug: "projects",
 				},
 				{
 					label: "02_Areas",

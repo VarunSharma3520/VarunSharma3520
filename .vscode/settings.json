@@ -1,3 +1,7 @@
 {
-	"cSpell.words": ["enviroment"]
+	"cSpell.words": [
+		"enviroment"
+	],
+	"emmet.showSuggestionsAsSnippets": true,
+	"autoHide.autoHideSideBar": true
 }
