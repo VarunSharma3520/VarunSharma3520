@@ -58,7 +58,7 @@ If you skip fundamentals, you’ll cap out early.
 
 ### Practice
 
-- [w3c](https://www.w3schools.com/python/module_requests.asp)
+- [python requests w3c](https://www.w3schools.com/python/module_requests.asp)
 -
 - Write bash scripts to:
 
@@ -339,9 +339,3 @@ you won’t ask “Am I ready?”
 **Companies will tell you.**
 
 ---
-
-If you want next, I can:
-
-- Customize this for **EC background**
-- Give **daily/weekly schedules**
-- Design **Cloud → AI or Cloud → Cyber Security path**

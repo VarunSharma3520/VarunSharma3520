@@ -1,8 +1,8 @@
 ---
-title: Digital Twin
-description: What is a digital twin and how to make one?
+title: What is a Digital Twin?
+description: A walkthrough of digital twin and how to make one?
 ---
-Great question — **digital twin** is a full *system concept*, not just software or hardware. I’ll give you a **clear map of available options**, grouped by **level, tools, and cost**, plus a **step-by-step recommendation path** depending on what kind of digital twin you want to build.
+**Digital twin** is a full *system concept*, not just software or hardware. I’ll give you a **clear map of available options**, grouped by **level, tools, and cost**, plus a **step-by-step recommendation path** depending on what kind of digital twin you want to build.
 
 ---
 
@@ -78,7 +78,7 @@ Used in **factories, power plants, automotive, aerospace**.
 
 | Layer           | Tools                      |
 | --------------- | -------------------------- |
-| **MCU / PLC**   | STM32, ESP32, Raspberry Pi |
+| **MCU / PLC**   | ✅ STM32, ESP32, Raspberry Pi |
 | **Protocol**    | ✅ MQTT, OPC-UA, Modbus     |
 | **Data Broker** | ✅ Mosquitto MQTT           |
 | **Backend**     | ✅ Node.js, Python, FastAPI |

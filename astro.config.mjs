@@ -44,7 +44,7 @@ export default defineConfig({
 				},
 				{
 					icon: "email",
-					label: "email",
+					label: "Email",
 					href: "mailto:sv279508@gmail.com",
 				},
 			],
@@ -56,7 +56,6 @@ export default defineConfig({
 						collapsed: true,
 					},
 					collapsed: true,
-					// slug: "projects",
 				},
 				{
 					label: "02_Areas",
