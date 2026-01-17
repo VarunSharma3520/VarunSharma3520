@@ -1,6 +1,6 @@
 services:
-  app:
-    image: node:24-alpine
+  notes_app:
+    image: node:24
     container_name: app
     working_dir: /app
 

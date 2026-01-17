@@ -20,6 +20,26 @@ export default defineConfig({
 
 	vite: {
 		plugins: [tailwindcss()],
+		server: {
+			host: true,          // allow access from host
+			watch: {
+				usePolling: true,  // REQUIRED in Docker
+				interval: 1000,
+				ignored: [
+					'**/node_modules/**',
+					'**/.git/**',
+					'**/.github/**',
+					'**/.vscode/**',
+					'**/.astro/**',
+					// '**/data/**',
+					'**/*.pdf',
+					'**/docker-compose*.yml',
+					"**/CONTRIBUTING.md",
+					"**/README.md",
+					"**/robots.txt",
+				]
+			}
+		},
 	},
 	integrations: [
 		starlight({

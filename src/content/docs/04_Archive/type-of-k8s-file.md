@@ -354,6 +354,169 @@ PVC
 
 ---
 
+In Kubernetes there isn’t a *fixed* small number — there are **dozens of resource kinds**, grouped by purpose and API group.
+
+---
+
+## 🧱 Core / Workload resources (apps you run)
+
+| Kind            | Purpose                            |
+| --------------- | ---------------------------------- |
+| **Pod**         | Smallest runnable unit             |
+| **Deployment**  | Stateless apps (most common)       |
+| **StatefulSet** | Stateful apps (DBs, queues)        |
+| **DaemonSet**   | One pod per node                   |
+| **Job**         | One-time tasks                     |
+| **CronJob**     | Scheduled jobs                     |
+| **ReplicaSet**  | Replica manager (usually indirect) |
+
+---
+
+## 🌐 Networking
+
+| Kind              | Purpose                  |
+| ----------------- | ------------------------ |
+| **Service**       | Stable access to pods    |
+| **Ingress**       | HTTP/HTTPS routing       |
+| **IngressClass**  | Ingress controller type  |
+| **NetworkPolicy** | Traffic allow/deny rules |
+| **EndpointSlice** | Service → Pod mapping    |
+
+---
+
+## 🔐 Security & Access
+
+| Kind                                 | Purpose               |
+| ------------------------------------ | --------------------- |
+| **ServiceAccount**                   | Pod identity          |
+| **Role / ClusterRole**               | Permissions           |
+| **RoleBinding / ClusterRoleBinding** | Permission attachment |
+| **NetworkPolicy**                    | Network security      |
+| **PodSecurityPolicy** (deprecated)   | Old security model    |
+| **PodSecurityAdmission**             | Current pod security  |
+
+---
+
+## ⚙️ Configuration & Secrets
+
+| Kind              | Purpose                 |
+| ----------------- | ----------------------- |
+| **ConfigMap**     | Non-secret config       |
+| **Secret**        | Sensitive data          |
+| **ResourceQuota** | Namespace limits        |
+| **LimitRange**    | Default resource limits |
+
+---
+
+## 📈 Autoscaling
+
+| Kind                        | Purpose                |
+| --------------------------- | ---------------------- |
+| **HorizontalPodAutoscaler** | Scale pods             |
+| **VerticalPodAutoscaler**   | Adjust resources       |
+| **ClusterAutoscaler**       | Scale nodes (external) |
+
+---
+
+## 🗄 Storage
+
+| Kind                      | Purpose          |
+| ------------------------- | ---------------- |
+| **PersistentVolume**      | Physical storage |
+| **PersistentVolumeClaim** | Storage request  |
+| **StorageClass**          | Storage type     |
+| **VolumeSnapshot**        | Snapshots        |
+
+---
+
+## 🧠 Observability
+
+| Kind                            | Purpose         |
+| ------------------------------- | --------------- |
+| **Event**                       | Cluster events  |
+| **Lease**                       | Leader election |
+| **PodMonitor / ServiceMonitor** | Prometheus CRDs |
+
+---
+
+## 🚦 Traffic & Policy
+
+| Kind                    | Purpose                 |
+| ----------------------- | ----------------------- |
+| **PodDisruptionBudget** | Availability guarantees |
+| **PriorityClass**       | Pod priority            |
+| **RuntimeClass**        | Container runtime       |
+| **NetworkPolicy**       | Network isolation       |
+
+---
+
+## 🔧 Cluster & Infrastructure
+
+| Kind                               | Purpose           |
+| ---------------------------------- | ----------------- |
+| **Node**                           | Worker machines   |
+| **Namespace**                      | Logical isolation |
+| **CustomResourceDefinition (CRD)** | Extend Kubernetes |
+| **APIService**                     | Extend API server |
+| **ControllerRevision**             | Controller state  |
+
+---
+
+## 🔌 Custom / Add-on (CRDs)
+
+Installed by tools like:
+
+* cert-manager
+* Prometheus
+* Istio
+* ArgoCD
+
+Examples:
+
+* `Certificate`
+* `Issuer`
+* `ServiceMonitor`
+* `VirtualService`
+
+---
+
+## 📊 How many are there really?
+
+* **~60 built-in kinds**
+* **Unlimited CRDs**
+* Production clusters often have **100+ kinds**
+
+---
+
+## 🎯 What you actually need (80/20 rule)
+
+Most production apps use **~12 kinds**:
+
+```
+Namespace
+Deployment
+Service
+Ingress
+ConfigMap
+Secret
+HorizontalPodAutoscaler
+NetworkPolicy
+PodDisruptionBudget
+ServiceAccount
+Role / RoleBinding
+ResourceQuota
+```
+
+---
+
+## 🔍 Want to see all kinds in your cluster?
+
+Run:
+
+```bash
+kubectl api-resources
+```
+
 # 🎯 You now understand REAL Kubernetes
 
 This is **not toy YAML** — this is how production clusters are built.
