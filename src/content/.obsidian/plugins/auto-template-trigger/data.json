@@ -1,0 +1,10 @@
+{
+  "folderSpecificTemplates": [
+    {
+      "folderPath": "template",
+      "templateName": ""
+    }
+  ],
+  "disablePrompt": false,
+  "debug": false
+}

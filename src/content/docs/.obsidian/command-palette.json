@@ -1,0 +1,8 @@
+{
+  "pinned": [
+    "file-explorer:new-file",
+    "insert-template",
+    "app:toggle-left-sidebar",
+    "app:toggle-right-sidebar"
+  ]
+}

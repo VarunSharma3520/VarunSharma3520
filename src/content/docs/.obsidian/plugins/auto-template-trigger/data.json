@@ -1,0 +1,10 @@
+{
+  "folderSpecificTemplates": [
+    {
+      "folderPath": "05_Quick_Notes",
+      "templateName": ""
+    }
+  ],
+  "disablePrompt": true,
+  "debug": false
+}

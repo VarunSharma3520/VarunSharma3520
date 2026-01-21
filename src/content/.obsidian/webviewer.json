@@ -1,5 +1,6 @@
 {
   "openExternalURLs": true,
   "enableAdblocking": true,
+  "homepage": "https://www.youtube.com",
   "searchEngine": "google"
 }

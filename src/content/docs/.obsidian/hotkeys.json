@@ -1,20 +1,19 @@
 {
-  "file-explorer:open": [
+  "command-palette:open": [
     {
       "modifiers": [
         "Mod",
         "Shift"
       ],
-      "key": "E"
+      "key": "P"
     }
   ],
-  "app:toggle-left-sidebar": [
+  "switcher:open": [
     {
       "modifiers": [
-        "Mod",
-        "Shift"
+        "Mod"
       ],
-      "key": "B"
+      "key": "P"
     }
   ]
 }

@@ -1,84 +1,70 @@
 {
   "main": {
-    "id": "ec44a75472ac529e",
+    "id": "ccd6cb40cb9c0e5e",
     "type": "split",
     "children": [
       {
-        "id": "06f7004cedf60831",
+        "id": "2654497ad61d220f",
         "type": "tabs",
         "children": [
           {
-            "id": "c4b96b774462763c",
+            "id": "3c73ad3fb8ccb444",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/02_Areas/Engineering/Cloud/Roadmap.md",
+                "file": "pages/Template.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Roadmap"
+              "title": "Template"
             }
           },
           {
-            "id": "b071fe8459cf2999",
+            "id": "0f4f605a5d800bd0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/02_Areas/Engineering/Cloud/Roadmap.md",
+                "file": "pages/Template.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Roadmap"
+              "title": "Template"
             }
           },
           {
-            "id": "858eadebe7f71aaf",
+            "id": "200f51c931f6c413",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/05_Quick_Notes/SecureStasteManagementintf.md",
+                "file": "04_Archive/Autoscaling-in-k8s.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SecureStasteManagementintf"
-            }
-          },
-          {
-            "id": "986782e642c10689",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/05_Quick_Notes/terraformModules.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "terraformModules"
+              "title": "Autoscaling-in-k8s"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "16604c16338899b1",
+    "id": "3e907e0180191c4b",
     "type": "split",
     "children": [
       {
-        "id": "b98a3c2efdc0f000",
+        "id": "16028ca24f341a50",
         "type": "tabs",
         "children": [
           {
-            "id": "622d083392c56e9d",
+            "id": "7b4bcdccd94a014a",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -91,12 +77,12 @@
             }
           },
           {
-            "id": "fbfd30dcfd8b5229",
+            "id": "6a86598d630b8265",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "kubernetes comm",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -108,7 +94,7 @@
             }
           },
           {
-            "id": "c8869e1c3f5cdcb9",
+            "id": "0f6cdbb821b43f42",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -124,19 +110,20 @@
     "width": 300
   },
   "right": {
-    "id": "26d977777fb77f99",
+    "id": "b4da317d1bab9251",
     "type": "split",
     "children": [
       {
-        "id": "a10b2ca3a38eca56",
+        "id": "e38e7659c0a90255",
         "type": "tabs",
         "children": [
           {
-            "id": "409f8182e84387df",
+            "id": "f38368e29cb48364",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
+                "file": "04_Archive/Autoscaling-in-k8s.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,11 +133,11 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for Autoscaling-in-k8s"
             }
           },
           {
-            "id": "2c63e33028d5eed5",
+            "id": "5edeb6e44e8ba00c",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
@@ -163,7 +150,7 @@
             }
           },
           {
-            "id": "621b1113fea0ecb2",
+            "id": "0b8f2450d579e22a",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -178,7 +165,7 @@
             }
           },
           {
-            "id": "cab8fae98514e76d",
+            "id": "0a2f34bce12de35d",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -192,7 +179,7 @@
             }
           },
           {
-            "id": "3e0ec1f108432ac6",
+            "id": "c792704a4c358ecd",
             "type": "leaf",
             "state": {
               "type": "outline",
@@ -209,8 +196,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -220,36 +206,17 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "bases:Create new base": false,
+      "random-note:Open random note": false
     }
   },
-  "active": "986782e642c10689",
+  "active": "200f51c931f6c413",
   "lastOpenFiles": [
-    "docs/05_Quick_Notes/SecureStasteManagementintf.md",
-    "docs/05_Quick_Notes/terraformModules.md",
-    "docs/02_Areas/Engineering/Cloud/Roadmap.md",
-    "docs/03_Resources/Blogs/Autoscaling-in-k8s.md",
-    "docs/03_Resources/Blogs/SpotInstanceInvokePolicy.md",
-    "docs/02_Areas/Engineering/Cloud/Networking.md",
-    "docs/02_Areas/Engineering/Cloud/OOM-killer.md",
-    "docs/05_Quick_Notes/ConvertanexistingYAMLappintoHelm.md",
-    "docs/05_Quick_Notes/K8sOperatorvsHelmChart.md",
-    "docs/05_Quick_Notes/HelmTheK8sPackageManager.md",
-    "docs/05_Quick_Notes/CompleteCICDPipeline.md",
-    "docs/05_Quick_Notes/HelmChartHub.md",
-    "docs/02_Areas/Engineering/Reference/HelmRef.md",
-    "docs/02_Areas/Engineering/Cloud/Load-testing.md",
-    "docs/02_Areas/Engineering/Cloud/log-rotation.md",
-    "docs/02_Areas/Engineering/Cloud/Docker-Volume.md",
-    "docs/02_Areas/Engineering/Reference/GitAndGithubCLI.md",
-    "docs/03_Resources/Blogs/ProductionGradeHelmChart.md",
-    "docs/02_Areas/Engineering/Reference/Kubectl-Commands.md",
-    "docs/03_Resources/Blogs/BlueGreenDeploymentWithHelm.md",
-    "template/base-template.md",
-    "docs/05_Quick_Notes/Untitled 3.md",
-    "docs/05_Quick_Notes/Untitled 2.md",
-    "docs/05_Quick_Notes/Untitled 1.md",
-    "docs/05_Quick_Notes/Untitled 6.md",
-    "docs/05_Quick_Notes/Untitled 5.md"
+    "05_Quick_Notes/Untitled 3.md",
+    "05_Quick_Notes/Untitled.md",
+    "pages/Template.md",
+    "05_Quick_Notes/Untitled 2.md",
+    "05_Quick_Notes/Untitled 1.md",
+    "05_Quick_Notes/tset.md"
   ]
 }
