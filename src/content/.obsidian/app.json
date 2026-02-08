@@ -1,5 +1,7 @@
 {
   "promptDelete": false,
   "newFileLocation": "folder",
-  "newFileFolderPath": "docs/05_Quick_Notes"
+  "newFileFolderPath": "docs/05_Quick_Notes",
+  "livePreview": true,
+  "defaultViewMode": "source"
 }

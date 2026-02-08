@@ -1,6 +1,7 @@
 ---
 title: 01-Month CE
 description: The first month of a structured 12-month roadmap to become an industry-ready Cloud Engineer, focusing on foundational skills and concepts.
+aliaes:
 ---
 
 Below is a **clean, end-to-end explanation** that ties all the topics you listed together, finishing with **how a browser request becomes a response** on a Linux server.

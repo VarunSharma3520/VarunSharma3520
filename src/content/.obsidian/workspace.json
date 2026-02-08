@@ -4,67 +4,81 @@
     "type": "split",
     "children": [
       {
-        "id": "06f7004cedf60831",
+        "id": "7d50d5378452125b",
         "type": "tabs",
         "children": [
           {
-            "id": "c4b96b774462763c",
+            "id": "1c32dd67c3149a5b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/02_Areas/Engineering/Cloud/Roadmap.md",
+                "file": "docs/03_Resources/Blogs/AIBLOGTONOTECONVERTER.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Roadmap"
+              "title": "AIBLOGTONOTECONVERTER"
             }
           },
           {
-            "id": "b071fe8459cf2999",
+            "id": "1aadd08913bd8800",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/02_Areas/Engineering/Cloud/Roadmap.md",
+                "file": "docs/03_Resources/Blogs/AIBLOGTONOTECONVERTER.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Roadmap"
+              "title": "AIBLOGTONOTECONVERTER"
             }
           },
           {
-            "id": "858eadebe7f71aaf",
+            "id": "daa55038317ec018",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/05_Quick_Notes/SecureStasteManagementintf.md",
+                "file": "docs/03_Resources/Blogs/LazyLoadingDocker.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SecureStasteManagementintf"
+              "title": "LazyLoadingDocker"
             }
           },
           {
-            "id": "986782e642c10689",
+            "id": "050af6378a30bbb5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/05_Quick_Notes/terraformModules.md",
+                "file": "docs/05_Quick_Notes/Inlets.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "terraformModules"
+              "title": "Inlets"
+            }
+          },
+          {
+            "id": "4d4ecf53540af9ff",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/05_Quick_Notes/DuckDNS.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "DuckDNS"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -223,33 +237,36 @@
       "bases:Create new base": false
     }
   },
-  "active": "986782e642c10689",
+  "active": "4d4ecf53540af9ff",
   "lastOpenFiles": [
-    "docs/05_Quick_Notes/SecureStasteManagementintf.md",
-    "docs/05_Quick_Notes/terraformModules.md",
+    "docs/05_Quick_Notes/Inlets.md",
+    "docs/05_Quick_Notes/DuckDNS.md",
+    "docs/03_Resources/Blogs/LazyLoadingDocker.md",
+    "docs/03_Resources/Blogs/AIBLOGTONOTECONVERTER.md",
+    "docs/03_Resources/Blogs/OverlatFSInDocker.md",
+    "docs/03_Resources/Blogs/How-to-make-right-decision.md",
+    "docs/02_Areas/Engineering/Cloud/ProductionGradeHelmChart.md",
+    "docs/02_Areas/Engineering/Cloud/SpotInstanceInvokePolicyInAWS.md",
+    "docs/01_Projects/self-RAG/Decisions.md",
+    "docs/02_Areas/Engineering/Cloud/CICDPipeline.md",
+    "docs/02_Areas/Engineering/Cloud/SetupArgoCDWithTerraform.md",
+    "docs/02_Areas/Engineering/Cloud/MultipleEnvInTerraform.md",
+    "docs/01_Projects/self-RAG/Tasks.md",
+    "docs/01_Projects/self-RAG/Overview.md",
+    "docs/01_Projects/self-RAG/Learnings.md",
     "docs/02_Areas/Engineering/Cloud/Roadmap.md",
-    "docs/03_Resources/Blogs/Autoscaling-in-k8s.md",
-    "docs/03_Resources/Blogs/SpotInstanceInvokePolicy.md",
-    "docs/02_Areas/Engineering/Cloud/Networking.md",
-    "docs/02_Areas/Engineering/Cloud/OOM-killer.md",
-    "docs/05_Quick_Notes/ConvertanexistingYAMLappintoHelm.md",
-    "docs/05_Quick_Notes/K8sOperatorvsHelmChart.md",
-    "docs/05_Quick_Notes/HelmTheK8sPackageManager.md",
-    "docs/05_Quick_Notes/CompleteCICDPipeline.md",
-    "docs/05_Quick_Notes/HelmChartHub.md",
-    "docs/02_Areas/Engineering/Reference/HelmRef.md",
-    "docs/02_Areas/Engineering/Cloud/Load-testing.md",
-    "docs/02_Areas/Engineering/Cloud/log-rotation.md",
-    "docs/02_Areas/Engineering/Cloud/Docker-Volume.md",
-    "docs/02_Areas/Engineering/Reference/GitAndGithubCLI.md",
-    "docs/03_Resources/Blogs/ProductionGradeHelmChart.md",
-    "docs/02_Areas/Engineering/Reference/Kubectl-Commands.md",
-    "docs/03_Resources/Blogs/BlueGreenDeploymentWithHelm.md",
-    "template/base-template.md",
-    "docs/05_Quick_Notes/Untitled 3.md",
-    "docs/05_Quick_Notes/Untitled 2.md",
-    "docs/05_Quick_Notes/Untitled 1.md",
-    "docs/05_Quick_Notes/Untitled 6.md",
-    "docs/05_Quick_Notes/Untitled 5.md"
+    "docs/02_Areas/Engineering/Cloud/01-month.md",
+    "02_Areas/Engineering/Cloud/01-month.md",
+    "docs/02_Areas/Engineering/Cloud/SecureStasteManagementintf.md",
+    "02_Areas/Engineering/Cloud",
+    "02_Areas/Engineering",
+    "02_Areas",
+    "docs/02_Areas/Engineering/Cloud/HowToUseHelmChartHub.md",
+    "docs/05_Quick_Notes/image-path-or-URL.md",
+    "docs/02_Areas/Engineering/Cloud/HelmTheK8sPackageManager.md",
+    "docs/02_Areas/Engineering/Cloud/CompleteCICDPipeline.md",
+    "docs/02_Areas/Engineering/Cloud/ConvertanexistingYAMLappintoHelm.md",
+    "docs/02_Areas/Engineering/Cloud/K8sOperatorvsHelmChart.md",
+    "docs/02_Areas/Engineering/Cloud/terraformModules.md"
   ]
 }

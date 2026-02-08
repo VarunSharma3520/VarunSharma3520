@@ -1,5 +1,5 @@
 ---
-title: Spot Instance Invocation Policy
+title: Spot Instance Invocation Policy in AWS
 description: If i buy a spot instance can aws take it immediately when ever they want?
 time: 12:01:44
 date: 21-01-2026
