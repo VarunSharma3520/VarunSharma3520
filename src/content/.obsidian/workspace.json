@@ -239,6 +239,9 @@
   },
   "active": "4d4ecf53540af9ff",
   "lastOpenFiles": [
+    "docs/05_Quick_Notes/Roadamp_to_Learn_Design_2D_graphics library_using_vector.md",
+    "docs/03_Resources/Blogs/BlueGreenDeploymentWithHelm.md",
+    "docs/03_Resources/Blogs/Autoscaling-in-k8s.md",
     "docs/05_Quick_Notes/Inlets.md",
     "docs/05_Quick_Notes/DuckDNS.md",
     "docs/03_Resources/Blogs/LazyLoadingDocker.md",
@@ -264,9 +267,6 @@
     "docs/02_Areas/Engineering/Cloud/HowToUseHelmChartHub.md",
     "docs/05_Quick_Notes/image-path-or-URL.md",
     "docs/02_Areas/Engineering/Cloud/HelmTheK8sPackageManager.md",
-    "docs/02_Areas/Engineering/Cloud/CompleteCICDPipeline.md",
-    "docs/02_Areas/Engineering/Cloud/ConvertanexistingYAMLappintoHelm.md",
-    "docs/02_Areas/Engineering/Cloud/K8sOperatorvsHelmChart.md",
-    "docs/02_Areas/Engineering/Cloud/terraformModules.md"
+    "docs/02_Areas/Engineering/Cloud/CompleteCICDPipeline.md"
   ]
 }
