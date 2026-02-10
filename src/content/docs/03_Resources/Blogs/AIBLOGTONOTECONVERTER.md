@@ -72,6 +72,7 @@ You are a knowledge compressor.
 Convert the following article into:
 • Core ideas
 • Mental models
+• Key Terminologies 
 • Actionable rules
 • Common traps
 • One-page cheat sheet
@@ -79,7 +80,7 @@ Convert the following article into:
 Rewrite it as notes for my future self.
 Be concise but deep.
 
-TEXT:
+LINK:
 [Paste article here]
 ```
 

@@ -4,11 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "7d50d5378452125b",
+        "id": "c7b9fa534a925d7c",
         "type": "tabs",
         "children": [
           {
-            "id": "1c32dd67c3149a5b",
+            "id": "f3483f28676184c1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/03_Resources/Blogs/OverlatFSInDocker.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "OverlatFSInDocker"
+            }
+          },
+          {
+            "id": "d9afec298d34a996",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/02_Areas/Health/WorkoutPlan.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "WorkoutPlan"
+            }
+          },
+          {
+            "id": "8f014a03d296c94f",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -22,59 +50,31 @@
             }
           },
           {
-            "id": "1aadd08913bd8800",
+            "id": "f70958a5e183179c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/03_Resources/Blogs/AIBLOGTONOTECONVERTER.md",
+                "file": "docs/03_Resources/Blogs/OWASP.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "AIBLOGTONOTECONVERTER"
+              "title": "OWASP"
             }
           },
           {
-            "id": "daa55038317ec018",
+            "id": "40d0e947fff983a9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/03_Resources/Blogs/LazyLoadingDocker.md",
+                "file": "docs/03_Resources/Blogs/DeployingGitlab.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "LazyLoadingDocker"
-            }
-          },
-          {
-            "id": "050af6378a30bbb5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/05_Quick_Notes/Inlets.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Inlets"
-            }
-          },
-          {
-            "id": "4d4ecf53540af9ff",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/05_Quick_Notes/DuckDNS.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "DuckDNS"
+              "title": "DeployingGitlab"
             }
           }
         ],
@@ -110,7 +110,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "kubernetes comm",
+                "query": "load test",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -237,16 +237,25 @@
       "bases:Create new base": false
     }
   },
-  "active": "4d4ecf53540af9ff",
+  "active": "622d083392c56e9d",
   "lastOpenFiles": [
-    "docs/05_Quick_Notes/Roadamp_to_Learn_Design_2D_graphics library_using_vector.md",
+    "docs/03_Resources/Blogs/AIBLOGTONOTECONVERTER.md",
+    "docs/03_Resources/Blogs/md2pdf.md",
+    "docs/03_Resources/Blogs/DeployingGitlab.md",
+    "docs/05_Quick_Notes/The.md",
+    "docs/05_Quick_Notes/Untitled.md",
+    "docs/03_Resources/Blogs/OWASP.md",
+    "docs/02_Areas/Health/FoodList.md",
+    "docs/02_Areas/Health/WorkoutPlan.md",
+    "docs/03_Resources/Blogs/OverlatFSInDocker.md",
+    "docs/02_Areas/Health",
+    "docs/03_Resources/Blogs/LazyLoadingDocker.md",
+    "docs/02_Areas/Engineering/Cloud/Load-testing.md",
+    "docs/03_Resources/Blogs/DuckDNS.md",
+    "docs/03_Resources/Blogs/Roadamp_to_Learn_Design_2D_graphics library_using_vector.md",
     "docs/03_Resources/Blogs/BlueGreenDeploymentWithHelm.md",
     "docs/03_Resources/Blogs/Autoscaling-in-k8s.md",
-    "docs/05_Quick_Notes/Inlets.md",
-    "docs/05_Quick_Notes/DuckDNS.md",
-    "docs/03_Resources/Blogs/LazyLoadingDocker.md",
-    "docs/03_Resources/Blogs/AIBLOGTONOTECONVERTER.md",
-    "docs/03_Resources/Blogs/OverlatFSInDocker.md",
+    "docs/02_Areas/Engineering/Cloud/Inlets.md",
     "docs/03_Resources/Blogs/How-to-make-right-decision.md",
     "docs/02_Areas/Engineering/Cloud/ProductionGradeHelmChart.md",
     "docs/02_Areas/Engineering/Cloud/SpotInstanceInvokePolicyInAWS.md",
@@ -257,16 +266,8 @@
     "docs/01_Projects/self-RAG/Tasks.md",
     "docs/01_Projects/self-RAG/Overview.md",
     "docs/01_Projects/self-RAG/Learnings.md",
-    "docs/02_Areas/Engineering/Cloud/Roadmap.md",
-    "docs/02_Areas/Engineering/Cloud/01-month.md",
-    "02_Areas/Engineering/Cloud/01-month.md",
-    "docs/02_Areas/Engineering/Cloud/SecureStasteManagementintf.md",
     "02_Areas/Engineering/Cloud",
     "02_Areas/Engineering",
-    "02_Areas",
-    "docs/02_Areas/Engineering/Cloud/HowToUseHelmChartHub.md",
-    "docs/05_Quick_Notes/image-path-or-URL.md",
-    "docs/02_Areas/Engineering/Cloud/HelmTheK8sPackageManager.md",
-    "docs/02_Areas/Engineering/Cloud/CompleteCICDPipeline.md"
+    "02_Areas"
   ]
 }
