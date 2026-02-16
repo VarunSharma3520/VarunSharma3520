@@ -4,81 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "c7b9fa534a925d7c",
+        "id": "47f5a941850f9a3f",
         "type": "tabs",
         "children": [
           {
-            "id": "f3483f28676184c1",
+            "id": "a7f60d61b1f40dbf",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/03_Resources/Blogs/OverlatFSInDocker.md",
+                "file": "docs/03_Resources/Books/Never Split the Difference.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "OverlatFSInDocker"
-            }
-          },
-          {
-            "id": "d9afec298d34a996",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/02_Areas/Health/WorkoutPlan.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "WorkoutPlan"
-            }
-          },
-          {
-            "id": "8f014a03d296c94f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/03_Resources/Blogs/AIBLOGTONOTECONVERTER.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "AIBLOGTONOTECONVERTER"
-            }
-          },
-          {
-            "id": "f70958a5e183179c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/03_Resources/Blogs/OWASP.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "OWASP"
-            }
-          },
-          {
-            "id": "40d0e947fff983a9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/03_Resources/Blogs/DeployingGitlab.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "DeployingGitlab"
+              "title": "Never Split the Difference"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "load test",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -237,35 +180,39 @@
       "bases:Create new base": false
     }
   },
-  "active": "622d083392c56e9d",
+  "active": "a7f60d61b1f40dbf",
   "lastOpenFiles": [
     "docs/03_Resources/Blogs/AIBLOGTONOTECONVERTER.md",
-    "docs/03_Resources/Blogs/md2pdf.md",
-    "docs/03_Resources/Blogs/DeployingGitlab.md",
-    "docs/05_Quick_Notes/The.md",
-    "docs/05_Quick_Notes/Untitled.md",
-    "docs/03_Resources/Blogs/OWASP.md",
-    "docs/02_Areas/Health/FoodList.md",
-    "docs/02_Areas/Health/WorkoutPlan.md",
+    "docs/05_Quick_Notes/SaunaAlgorithm.md",
+    "docs/05_Quick_Notes/supabase.md",
+    "docs/05_Quick_Notes/Appwrite.md",
+    "docs/05_Quick_Notes/Mongodb.md",
+    "docs/05_Quick_Notes/Redis.md",
+    "docs/05_Quick_Notes/PostgresSQL.md",
+    "docs/05_Quick_Notes/WindowsInAWS.md",
+    "docs/05_Quick_Notes/AWSECTWOFAMILY.md",
+    "docs/05_Quick_Notes/ECtwo.md",
+    "docs/02_Areas/Engineering/Cloud/Roadmap.md",
+    "docs/05_Quick_Notes/EKS.md",
+    "docs/05_Quick_Notes/ECS.md",
+    "docs/05_Quick_Notes/AWSServices.md",
+    "docs/05_Quick_Notes/FARGATE.md",
+    "docs/02_Areas/Engineering/Cloud/01-month.md",
+    "docs/05_Quick_Notes/SThree.md",
+    "docs/03_Resources/Books/Laws of Power.md",
+    "lop.pdf.md",
+    "docs/03_Resources/Blogs/AnimateIcon.md",
+    "assets/team_of_teams.pdf",
+    "assets/Unconfirmed 198556.crdownload",
+    "docs/02_Areas/Engineering/Reference/java.md",
+    "docs/03_Resources/Blogs/DyanamicDiscoveryContent.md",
+    "docs/03_Resources/Blogs/NameSquatting.md",
     "docs/03_Resources/Blogs/OverlatFSInDocker.md",
+    "docs/02_Areas/Health/WorkoutPlan.md",
+    "docs/03_Resources/Blogs/OWASP.md",
+    "assets/animateIcon.png",
+    "assets/Unconfirmed 714128.crdownload",
     "docs/02_Areas/Health",
-    "docs/03_Resources/Blogs/LazyLoadingDocker.md",
-    "docs/02_Areas/Engineering/Cloud/Load-testing.md",
-    "docs/03_Resources/Blogs/DuckDNS.md",
-    "docs/03_Resources/Blogs/Roadamp_to_Learn_Design_2D_graphics library_using_vector.md",
-    "docs/03_Resources/Blogs/BlueGreenDeploymentWithHelm.md",
-    "docs/03_Resources/Blogs/Autoscaling-in-k8s.md",
-    "docs/02_Areas/Engineering/Cloud/Inlets.md",
-    "docs/03_Resources/Blogs/How-to-make-right-decision.md",
-    "docs/02_Areas/Engineering/Cloud/ProductionGradeHelmChart.md",
-    "docs/02_Areas/Engineering/Cloud/SpotInstanceInvokePolicyInAWS.md",
-    "docs/01_Projects/self-RAG/Decisions.md",
-    "docs/02_Areas/Engineering/Cloud/CICDPipeline.md",
-    "docs/02_Areas/Engineering/Cloud/SetupArgoCDWithTerraform.md",
-    "docs/02_Areas/Engineering/Cloud/MultipleEnvInTerraform.md",
-    "docs/01_Projects/self-RAG/Tasks.md",
-    "docs/01_Projects/self-RAG/Overview.md",
-    "docs/01_Projects/self-RAG/Learnings.md",
     "02_Areas/Engineering/Cloud",
     "02_Areas/Engineering",
     "02_Areas"

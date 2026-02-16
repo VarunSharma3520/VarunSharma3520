@@ -79,6 +79,9 @@ Convert the following article into:
 
 Rewrite it as notes for my future self.
 Be concise but deep.
+No header.
+No Footer.
+use proper md file.
 
 LINK:
 [Paste article here]

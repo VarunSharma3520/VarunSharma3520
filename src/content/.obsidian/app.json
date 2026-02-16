@@ -3,5 +3,6 @@
   "newFileLocation": "folder",
   "newFileFolderPath": "docs/05_Quick_Notes",
   "livePreview": true,
-  "defaultViewMode": "source"
+  "defaultViewMode": "source",
+  "alwaysUpdateLinks": true
 }
