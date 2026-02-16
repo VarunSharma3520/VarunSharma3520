@@ -175,3 +175,4 @@ Before asking, consider:
 - What **emotion** do I want to trigger? (doubt, curiosity, concern, excitement)
 - What **mental model** do I want them to question?
 - What **assumption** do I want them to re-examine?
+
