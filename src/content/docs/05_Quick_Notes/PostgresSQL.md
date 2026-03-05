@@ -1,7 +1,7 @@
 ---
 title: Advance PostgresSQL Concepts
 description: A guide to PostgreSQL concepts
-time: 20:02:74
+time: 20:02:00
 date: 15-02-2026
 ---
 Here is the **complete PostgreSQL knowledge map** — from beginner to **FAANG-level backend engineer**.

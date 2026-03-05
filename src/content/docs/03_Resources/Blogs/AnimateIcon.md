@@ -1,11 +1,11 @@
 ---
 title: AnimateIcons
 description: Free and open-source animated SVG icons for React, built for smooth micro-interactions, easy customization, and lightweight performance
-time: 22:02:97
+time: 22:02:00
 date: 14-02-2026
 ---
 # AnimateIcons
-![AnimateIcons Preview](animateIcon.png)
+![AnimateIcons Preview](../../../assets/animateIcon.png)
 
 Free and open-source animated SVG icons for React, built for smooth micro-interactions, easy customization, and lightweight performance.
 [Github](https://github.com/Avijit07x/animateicons)

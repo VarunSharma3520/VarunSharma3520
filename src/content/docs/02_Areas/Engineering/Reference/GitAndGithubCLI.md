@@ -1,7 +1,7 @@
 ---
 title: Git And Github CLI
 description: A cheatsheet to use git and github's CLI
-time: 02:01:60
+time: 02:01:00
 date: 20-01-2026
 ---
 Here’s a **small, clean, high-signal cheat sheet** for **Git + GitHub + `gh` CLI** — the kind you actually keep open while working 👇

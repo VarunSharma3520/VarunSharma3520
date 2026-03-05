@@ -1,7 +1,7 @@
 ---
 title: Lazy Loading in Docker
 description: A detailed guide to reduce cold starts in docker
-time: 15:02:98
+time: 15:02:00
 date: 06-02-2026
 ---
 

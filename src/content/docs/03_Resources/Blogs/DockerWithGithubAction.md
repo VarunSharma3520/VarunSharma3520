@@ -1,7 +1,7 @@
 ---
 title: Building Github action
 description: Introduction to GitHub Actions with Docker
-time: 22:02:74
+time: 22:02:00
 date: 14-02-2026
 ---
 This guide provides an introduction to building CI pipelines using Docker and

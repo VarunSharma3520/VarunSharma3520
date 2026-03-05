@@ -1,7 +1,7 @@
 ---
 title: AutoScaling and Load Balancing AWS
 description: Click to edit description
-time: 15:02:73
+time: 15:02:00
 date: 17-02-2026
 ---
 How **Auto Scaling Groups**, **Scaling Policies**, and **AWS Load Balancers** work together to build a **highly available, self-healing, and scalable cloud architecture**.

@@ -1,7 +1,7 @@
 ---
 title: S3 Topics
 description: A list of s3 topics
-time: 03:02:82
+time: 03:02:00
 date: 17-02-2026
 ---
 # 🧠 **Advanced Amazon S3 Concept**

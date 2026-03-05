@@ -1,7 +1,7 @@
 ---
 title: Supabase
 description: Intro to supabase
-time: 17:02:68
+time: 17:02:00
 date: 15-02-2026
 ---
 

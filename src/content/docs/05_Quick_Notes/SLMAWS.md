@@ -1,7 +1,7 @@
 ---
 title: Snapshot Lifecycle Manager in AWS
 description: Click to edit description
-time: 15:02:81
+time: 15:02:00
 date: 17-02-2026
 ---
 

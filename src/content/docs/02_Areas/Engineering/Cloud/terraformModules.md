@@ -1,7 +1,7 @@
 ---
 title: Modules in Terraform
 description: Guide on a production level on terraform modules
-time: 14:01:86
+time: 14:01:00
 date: 21-01-2026
 ---
 A good **production-level Terraform module setup** usually follows two principles:

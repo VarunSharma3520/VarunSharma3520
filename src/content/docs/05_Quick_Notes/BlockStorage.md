@@ -1,7 +1,7 @@
 ---
 title: Types of EBS in AWS
 description: Compare types of EBS
-time: 14:02:80
+time: 14:02:00
 date: 17-02-2026
 ---
 ************

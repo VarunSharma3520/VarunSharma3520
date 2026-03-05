@@ -1,7 +1,7 @@
 ---
 title: Convert an existing YAML app into Helm
 description: Guide to use an existing YAML app into Helm
-time: 04:01:86
+time: 04:01:00
 date: 20-01-2026
 ---
 

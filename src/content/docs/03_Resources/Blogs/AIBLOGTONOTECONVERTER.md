@@ -1,7 +1,7 @@
 ---
 title: Blog with AI
 description: how to increase your knowledge with AI to enhance with AI
-time: 12:02:67
+time: 12:02:00
 date: 06-02-2026
 ---
 You can turn **any blog into clean, useful notes automatically** with AI — but you have to use it the _right_ way.

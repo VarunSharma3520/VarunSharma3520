@@ -1,7 +1,7 @@
 ---
 title: EC2 cost optimization
 description: A list of methods for cost optimization
-time: 19:02:78
+time: 19:02:00
 date: 17-02-2026
 ---
 

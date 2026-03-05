@@ -1,7 +1,7 @@
 ---
 title: Disaster Recovery Patterns in cloud deployment
 description: A detailed methodological description of disaster recovery pattern
-time: 19:02:83
+time: 19:02:00
 date: 17-02-2026
 ---
 

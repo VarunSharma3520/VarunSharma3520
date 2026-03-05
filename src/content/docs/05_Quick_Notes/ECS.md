@@ -1,7 +1,7 @@
 ---
 title: ECS topics
 description: A list of ECS topics
-time: 03:02:88
+time: 03:02:00
 date: 17-02-2026
 ---
 # 🧠 AWS ECS — Advanced Topics & Pro Techniques

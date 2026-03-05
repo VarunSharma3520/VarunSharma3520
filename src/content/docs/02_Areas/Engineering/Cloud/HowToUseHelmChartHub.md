@@ -1,7 +1,7 @@
 ---
 title: How to use public helm charts efficiently
 description: Guide to use public helm chart
-time: 04:01:83
+time: 04:01:00
 date: 20-01-2026
 ---
 This is written from a **real cluster / production mindset**, not just “helm install and forget”.

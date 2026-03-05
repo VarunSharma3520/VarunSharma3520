@@ -1,7 +1,7 @@
 ---
 title: Workout for power + longevity
 description: This plan combines strength, cardio, mobility, balance, and sport
-time: 14:02:66
+time: 14:02:00
 date: 10-02-2026
 ---
 **power + longevity** is exactly how elite athletes train 🧠💪  

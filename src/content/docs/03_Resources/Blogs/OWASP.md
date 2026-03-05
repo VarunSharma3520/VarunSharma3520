@@ -1,7 +1,7 @@
 ---
 title: 20 Years of Application Security
 description: Condensed notes covering the evolution of application security based on the Octopus
-time: 16:02:68
+time: 16:02:00
 date: 10-02-2026
 ---
 

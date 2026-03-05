@@ -1,7 +1,7 @@
 ---
 title: Availability in EC2
 description: Availability in EC2
-time: 15:02:87
+time: 15:02:00
 date: 17-02-2026
 ---
 The four core building blocks that make **AWS production systems** reliable, scalable, and safe.

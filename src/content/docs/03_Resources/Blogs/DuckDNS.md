@@ -1,7 +1,7 @@
 ---
 title: what is DuckDNS ?
 description: DuckDNS is a free dynamic DNS (DDNS) service
-time: 23:02:90
+time: 23:02:00
 date: 06-02-2026
 ---
 

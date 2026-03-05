@@ -1,7 +1,7 @@
 ---
 title: AWS EC2 family
 description: Click to edit description
-time: 21:02:64
+time: 21:02:00
 date: 15-02-2026
 ---
 EC2 is not “a server”.  

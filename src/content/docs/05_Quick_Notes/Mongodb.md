@@ -1,7 +1,7 @@
 ---
 title: Advance MongoDB Concepts
 description: A guide to mongodb concepts
-time: 20:02:62
+time: 20:02:00
 date: 15-02-2026
 ---
 Here are the **advanced MongoDB concepts** that separate **junior devs from senior backend engineers** in 2026.

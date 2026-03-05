@@ -1,7 +1,7 @@
 ---
 title: What is Root Volume in AWS?
 description: A guide on root volume in AWS
-time: 15:02:69
+time: 15:02:00
 date: 17-02-2026
 ---
 ## 🧱 Root Volume vs Amazon EBS — What’s the Real Difference?

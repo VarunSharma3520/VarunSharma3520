@@ -1,7 +1,7 @@
 ---
 title: Operator v/s Helm Chart in k8s
 description: Comparison between Operator & Helm Chart in k8s
-time: 04:01:82
+time: 04:01:00
 date: 20-01-2026
 ---
 

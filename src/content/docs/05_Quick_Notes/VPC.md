@@ -1,7 +1,7 @@
 ---
 title: VPC guide
 description: A list of VPC topics
-time: 05:02:73
+time: 05:02:00
 date: 17-02-2026
 ---
 

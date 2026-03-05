@@ -1,7 +1,7 @@
 ---
 title: Blue Green Deployment With Helm
 description: A demonstration of blue green deployment
-time: 01:01:88
+time: 01:01:00
 date: 20-01-2026
 ---
 Perfect — **Blue/Green with Helm** is a _real production deployment strategy_, not a toy example.  
