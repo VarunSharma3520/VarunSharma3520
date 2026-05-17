@@ -2,7 +2,6 @@
 title: Decisions
 description: A clear, industry + research–grade Self-RAG Maturity Model (Level 1–5) based on 40 checkpoints.
 ---
-
 # **Self-RAG Maturity Model (SRMM)**
 
 Below is a **Self-RAG Maturity Model (Level 1–5)** converted **directly from your 40 checkpoints**, written in a **clear, industry + research–grade framework**.
